@@ -5531,6 +5531,11 @@ DIN A3, landscape with location and doc. field</description>
 <junction x="254" y="208.28"/>
 <label x="266.7" y="208.28" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="COMPLEX1" gate="G$1" pin="TIP"/>
+<wire x1="347.98" y1="152.4" x2="335.28" y2="152.4" width="0.1524" layer="91"/>
+<label x="335.28" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="COMPLEX_OUT2_BUFFERED" class="0">
 <segment>
@@ -5544,6 +5549,11 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="254" y1="101.6" x2="266.7" y2="101.6" width="0.1524" layer="91"/>
 <junction x="254" y="101.6"/>
 <label x="266.7" y="101.6" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="COMPLEX2" gate="G$1" pin="TIP"/>
+<wire x1="347.98" y1="134.62" x2="335.28" y2="134.62" width="0.1524" layer="91"/>
+<label x="335.28" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$73" class="0">
@@ -5584,20 +5594,6 @@ DIN A3, landscape with location and doc. field</description>
 <junction x="368.3" y="160.02"/>
 <junction x="368.3" y="177.8"/>
 <junction x="368.3" y="195.58"/>
-</segment>
-</net>
-<net name="N$85" class="0">
-<segment>
-<pinref part="COMPLEX1" gate="G$1" pin="TIP"/>
-<wire x1="347.98" y1="152.4" x2="335.28" y2="152.4" width="0.1524" layer="91"/>
-<label x="335.28" y="152.4" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$86" class="0">
-<segment>
-<pinref part="COMPLEX2" gate="G$1" pin="TIP"/>
-<wire x1="347.98" y1="134.62" x2="335.28" y2="134.62" width="0.1524" layer="91"/>
-<label x="335.28" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

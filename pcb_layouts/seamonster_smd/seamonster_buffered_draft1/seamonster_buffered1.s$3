@@ -3650,6 +3650,9 @@ DIN A3, landscape with location and doc. field</description>
 <part name="COMPLEX1" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="COMPLEX2" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
+<part name="VCO1" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
+<part name="U$3" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
+<part name="GND71" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5624,6 +5627,9 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="GND65" gate="1" x="198.12" y="93.98"/>
 <instance part="GND66" gate="1" x="73.66" y="104.14"/>
 <instance part="GND67" gate="1" x="187.96" y="106.68"/>
+<instance part="VCO1" gate="G$1" x="152.4" y="162.56"/>
+<instance part="U$3" gate="G$1" x="271.78" y="154.94"/>
+<instance part="GND71" gate="1" x="142.24" y="152.4"/>
 </instances>
 <busses>
 </busses>
@@ -5658,9 +5664,12 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="129.54" y1="154.94" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U3" gate="A" pin="OUT"/>
 <wire x1="129.54" y1="165.1" x2="116.84" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="165.1" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
 <junction x="129.54" y="165.1"/>
-<label x="142.24" y="165.1" size="1.778" layer="95" xref="yes"/>
+<label x="142.24" y="175.26" size="1.778" layer="95" xref="yes"/>
+<pinref part="VCO1" gate="G$1" pin="TIP"/>
+<wire x1="129.54" y1="165.1" x2="147.32" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="175.26" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="175.26" x2="129.54" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCO2_OUT" class="0">
@@ -5783,6 +5792,12 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="GND67" gate="1" pin="GND"/>
 <wire x1="208.28" y1="114.3" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="114.3" x2="187.96" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="VCO1" gate="G$1" pin="SLEEVE"/>
+<pinref part="GND71" gate="1" pin="GND"/>
+<wire x1="147.32" y1="160.02" x2="142.24" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="160.02" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$71" class="0">

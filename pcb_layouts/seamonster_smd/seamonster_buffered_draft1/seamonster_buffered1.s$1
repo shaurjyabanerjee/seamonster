@@ -3654,6 +3654,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="VCO2" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="GND71" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND73" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4426,6 +4427,7 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="GND48" gate="1" x="360.68" y="58.42"/>
 <instance part="GND49" gate="1" x="370.84" y="66.04"/>
 <instance part="SUPPLY17" gate="G$1" x="284.48" y="91.44"/>
+<instance part="GND73" gate="1" x="251.46" y="218.44"/>
 </instances>
 <busses>
 </busses>
@@ -4718,6 +4720,12 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="C25" gate="G$1" pin="2"/>
 <pinref part="GND49" gate="1" pin="GND"/>
 <wire x1="370.84" y1="78.74" x2="370.84" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="CV_OUT" gate="G$1" pin="SLEEVE"/>
+<pinref part="GND73" gate="1" pin="GND"/>
+<wire x1="259.08" y1="226.06" x2="251.46" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="226.06" x2="251.46" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A" class="0">

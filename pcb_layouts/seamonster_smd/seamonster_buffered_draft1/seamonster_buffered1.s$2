@@ -3651,8 +3651,9 @@ DIN A3, landscape with location and doc. field</description>
 <part name="COMPLEX2" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
 <part name="VCO1" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
-<part name="U$3" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
+<part name="VCO2" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="GND71" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5628,8 +5629,9 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="GND66" gate="1" x="73.66" y="104.14"/>
 <instance part="GND67" gate="1" x="187.96" y="106.68"/>
 <instance part="VCO1" gate="G$1" x="152.4" y="162.56"/>
-<instance part="U$3" gate="G$1" x="271.78" y="154.94"/>
+<instance part="VCO2" gate="G$1" x="266.7" y="162.56"/>
 <instance part="GND71" gate="1" x="142.24" y="152.4"/>
+<instance part="GND72" gate="1" x="256.54" y="152.4"/>
 </instances>
 <busses>
 </busses>
@@ -5690,9 +5692,12 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="243.84" y1="154.94" x2="243.84" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="U3" gate="B" pin="OUT"/>
 <wire x1="243.84" y1="165.1" x2="231.14" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="165.1" x2="256.54" y2="165.1" width="0.1524" layer="91"/>
+<label x="256.54" y="175.26" size="1.778" layer="95" xref="yes"/>
+<wire x1="243.84" y1="165.1" x2="243.84" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="175.26" x2="256.54" y2="175.26" width="0.1524" layer="91"/>
 <junction x="243.84" y="165.1"/>
-<label x="256.54" y="165.1" size="1.778" layer="95" xref="yes"/>
+<pinref part="VCO2" gate="G$1" pin="TIP"/>
+<wire x1="243.84" y1="165.1" x2="261.62" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -5798,6 +5803,12 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="GND71" gate="1" pin="GND"/>
 <wire x1="147.32" y1="160.02" x2="142.24" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="160.02" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="VCO2" gate="G$1" pin="SLEEVE"/>
+<pinref part="GND72" gate="1" pin="GND"/>
+<wire x1="261.62" y1="160.02" x2="256.54" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="160.02" x2="256.54" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$71" class="0">

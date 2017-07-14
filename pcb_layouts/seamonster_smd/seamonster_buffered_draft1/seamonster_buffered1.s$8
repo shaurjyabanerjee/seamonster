@@ -3502,10 +3502,10 @@ DIN A3, landscape with location and doc. field</description>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="IC6" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="40106" device="D"/>
 <part name="IC7" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4070" device="D"/>
-<part name="SW1" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device=""/>
-<part name="SW2" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device=""/>
-<part name="SW3" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device=""/>
-<part name="SW4" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device=""/>
+<part name="SW1" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device="" value="SPDT ON-ON"/>
+<part name="SW2" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device="" value="SPDT ON-ON"/>
+<part name="SW3" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device="" value="SPDT ON-ON"/>
+<part name="SW4" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device="" value="SPDT ON-ON"/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1µF"/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
@@ -3589,7 +3589,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="VR15" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="100KΩ"/>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="CLOCK_SELECT" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device=""/>
+<part name="CLOCK_SELECT" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device="" value="SPDT ON-ON"/>
 <part name="IC9" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4040" device="D"/>
 <part name="Q1" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="Q2" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
