@@ -79,41 +79,6 @@
 <hole x="165" y="125.5" drill="3"/>
 <hole x="165" y="3" drill="3"/>
 <hole x="7.5" y="3" drill="3"/>
-<hole x="10.16" y="106.68" drill="7.05"/>
-<hole x="29.21" y="106.68" drill="7.05"/>
-<hole x="48.26" y="106.68" drill="7.05"/>
-<hole x="67.31" y="106.68" drill="7.05"/>
-<hole x="86.36" y="106.68" drill="7.05"/>
-<hole x="105.41" y="106.68" drill="7.05"/>
-<hole x="124.46" y="106.68" drill="7.05"/>
-<hole x="143.51" y="106.68" drill="7.05"/>
-<hole x="10.16" y="82.55" drill="6.05"/>
-<hole x="29.21" y="82.55" drill="6.05"/>
-<hole x="48.26" y="82.55" drill="6.05"/>
-<hole x="67.31" y="82.55" drill="6.05"/>
-<hole x="86.36" y="82.55" drill="6.05"/>
-<hole x="105.41" y="82.55" drill="6.05"/>
-<hole x="124.46" y="82.55" drill="6.05"/>
-<hole x="143.51" y="82.55" drill="6.05"/>
-<hole x="182.88" y="109.22" drill="6.05"/>
-<hole x="182.88" y="93.98" drill="6.05"/>
-<hole x="121.92" y="20.32" drill="6.05"/>
-<hole x="130.81" y="20.32" drill="6.05"/>
-<hole x="139.7" y="20.32" drill="6.05"/>
-<hole x="148.59" y="20.32" drill="6.05"/>
-<hole x="158.75" y="20.32" drill="6.05"/>
-<hole x="167.64" y="20.32" drill="6.05"/>
-<hole x="166.37" y="43.18" drill="6.05"/>
-<hole x="157.48" y="43.18" drill="6.05"/>
-<hole x="147.32" y="43.18" drill="6.05"/>
-<hole x="7.62" y="19.05" drill="6.05"/>
-<hole x="17.78" y="19.05" drill="6.05"/>
-<hole x="27.94" y="19.05" drill="6.05"/>
-<hole x="38.1" y="19.05" drill="6.05"/>
-<hole x="48.26" y="19.05" drill="6.05"/>
-<hole x="58.42" y="19.05" drill="6.05"/>
-<hole x="68.58" y="19.05" drill="6.05"/>
-<hole x="78.74" y="19.05" drill="6.05"/>
 </plain>
 <libraries>
 </libraries>
@@ -307,22 +272,6 @@ design rules under a new name.</description>
 <elements>
 </elements>
 <signals>
-<signal name="N$1">
-<polygon width="0.1524" layer="1">
-<vertex x="0" y="0"/>
-<vertex x="172.72" y="0"/>
-<vertex x="172.72" y="128.27"/>
-<vertex x="0" y="128.27"/>
-</polygon>
-</signal>
-<signal name="GND">
-<polygon width="0.1524" layer="16">
-<vertex x="0" y="0"/>
-<vertex x="172.72" y="0"/>
-<vertex x="172.72" y="128.27"/>
-<vertex x="0" y="128.27"/>
-</polygon>
-</signal>
 </signals>
 </board>
 </drawing>
