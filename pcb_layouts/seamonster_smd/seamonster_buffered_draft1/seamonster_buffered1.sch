@@ -3655,6 +3655,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND72" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND73" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="DT" technology="08"/>
+<part name="J1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
+<part name="J2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
+<part name="J3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
 </parts>
 <sheets>
 <sheet>
@@ -4428,18 +4431,21 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="GND49" gate="1" x="370.84" y="66.04"/>
 <instance part="SUPPLY17" gate="G$1" x="284.48" y="91.44"/>
 <instance part="GND73" gate="1" x="251.46" y="218.44"/>
+<instance part="J1" gate="G$1" x="132.08" y="68.58"/>
+<instance part="J2" gate="G$1" x="132.08" y="55.88"/>
+<instance part="J3" gate="G$1" x="132.08" y="43.18"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$2" class="0">
+<net name="MUX1" class="0">
 <segment>
 <pinref part="MUX1" gate="G$1" pin="TIP"/>
 <pinref part="IC4" gate="G$2" pin="S1"/>
 <wire x1="246.38" y1="116.84" x2="312.42" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="MUX2" class="0">
 <segment>
 <pinref part="MUX2" gate="G$1" pin="TIP"/>
 <wire x1="246.38" y1="104.14" x2="251.46" y2="104.14" width="0.1524" layer="91"/>
@@ -4448,7 +4454,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="251.46" y1="114.3" x2="312.42" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="MUX3" class="0">
 <segment>
 <pinref part="MUX3" gate="G$1" pin="TIP"/>
 <wire x1="246.38" y1="91.44" x2="254" y2="91.44" width="0.1524" layer="91"/>
@@ -4457,7 +4463,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="254" y1="111.76" x2="312.42" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="MUX4" class="0">
 <segment>
 <pinref part="MUX4" gate="G$1" pin="TIP"/>
 <wire x1="246.38" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
@@ -4466,7 +4472,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="256.54" y1="109.22" x2="312.42" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="MUX5" class="0">
 <segment>
 <pinref part="MUX5" gate="G$1" pin="TIP"/>
 <wire x1="246.38" y1="66.04" x2="259.08" y2="66.04" width="0.1524" layer="91"/>
@@ -4475,7 +4481,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="259.08" y1="106.68" x2="312.42" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="MUX6" class="0">
 <segment>
 <pinref part="MUX6" gate="G$1" pin="TIP"/>
 <wire x1="246.38" y1="53.34" x2="261.62" y2="53.34" width="0.1524" layer="91"/>
@@ -4484,7 +4490,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="261.62" y1="104.14" x2="312.42" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="MUX7" class="0">
 <segment>
 <pinref part="MUX7" gate="G$1" pin="TIP"/>
 <wire x1="246.38" y1="40.64" x2="264.16" y2="40.64" width="0.1524" layer="91"/>
@@ -4493,7 +4499,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="264.16" y1="101.6" x2="312.42" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="MUX8" class="0">
 <segment>
 <pinref part="MUX8" gate="G$1" pin="TIP"/>
 <wire x1="246.38" y1="27.94" x2="266.7" y2="27.94" width="0.1524" layer="91"/>
@@ -5091,6 +5097,48 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="226.06" y1="241.3" x2="233.68" y2="241.3" width="0.1524" layer="91"/>
 <label x="233.68" y="241.3" size="1.778" layer="95" xref="yes"/>
 <junction x="226.06" y="231.14"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="A" gate="G$1" pin="SWITCH"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="B" gate="G$1" pin="SWITCH"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$76" class="0">
+<segment>
+<pinref part="C" gate="G$1" pin="SWITCH"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="Q1" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="68.58" x2="147.32" y2="68.58" width="0.1524" layer="91"/>
+<label x="147.32" y="68.58" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="Q2" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="55.88" x2="147.32" y2="55.88" width="0.1524" layer="91"/>
+<label x="147.32" y="55.88" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="Q3" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="43.18" x2="147.32" y2="43.18" width="0.1524" layer="91"/>
+<label x="147.32" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
