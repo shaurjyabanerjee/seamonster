@@ -901,8 +901,14 @@ design rules under a new name.</description>
 <element name="C2" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="47µF" x="86.36" y="33.02" rot="MR0"/>
 <element name="C3" library="SparkFun-Capacitors" package="0805" value="0.1µF" x="92.075" y="28.575" rot="R180"/>
 <element name="C4" library="SparkFun-Capacitors" package="0805" value="0.1µF" x="103.505" y="28.575"/>
-<element name="IC2" library="40xx" library_urn="urn:adsk.eagle:library:80" package="SO16" value="4051D" x="57.785" y="94.615" rot="R90"/>
-<element name="IC3" library="40xx" library_urn="urn:adsk.eagle:library:80" package="SO16" value="4051D" x="19.685" y="94.615" rot="R90"/>
+<element name="IC2" library="40xx" library_urn="urn:adsk.eagle:library:80" package="SO16" value="4051D" x="57.785" y="94.615" smashed="yes" rot="R90">
+<attribute name="NAME" x="57.912" y="100.9015" size="1.27" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="VALUE" x="58.42" y="91.821" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
+<element name="IC3" library="40xx" library_urn="urn:adsk.eagle:library:80" package="SO16" value="4051D" x="19.685" y="94.615" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.812" y="100.9015" size="1.27" layer="25" font="vector" ratio="10" rot="R180" align="center"/>
+<attribute name="VALUE" x="20.32" y="91.821" size="1.27" layer="27" font="vector" ratio="10" rot="R90"/>
+</element>
 <element name="IC4" library="maxim" library_urn="urn:adsk.eagle:library:269" package="SO16" value="DG408DY" x="105.38" y="69.75" rot="R270">
 <attribute name="MF" value="" x="105.38" y="69.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="DG408DY+T" x="105.38" y="69.75" size="1.778" layer="27" rot="R270" display="off"/>
@@ -917,15 +923,33 @@ design rules under a new name.</description>
 <element name="LED6" library="SparkFun-LED" package="LED3MM" value="" x="105.41" y="96.52"/>
 <element name="LED7" library="SparkFun-LED" package="LED3MM" value="" x="124.46" y="96.52"/>
 <element name="LED8" library="SparkFun-LED" package="LED3MM" value="" x="143.51" y="96.52"/>
-<element name="MUX1" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="10.16" y="82.55" rot="R270"/>
-<element name="MUX2" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="29.21" y="82.55" rot="R270"/>
-<element name="MUX3" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="48.26" y="82.55" rot="R270"/>
-<element name="MUX4" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="67.31" y="82.55" rot="R270"/>
-<element name="MUX5" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="86.36" y="82.55" rot="R270"/>
-<element name="MUX6" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="105.41" y="82.55" rot="R270"/>
-<element name="MUX7" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="124.46" y="82.55" rot="R270"/>
-<element name="MUX8" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="143.51" y="82.55" rot="R270"/>
-<element name="MUX_OUT" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="162.56" y="82.55" rot="R270"/>
+<element name="MUX1" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="10.16" y="82.55" smashed="yes" rot="R270">
+<attribute name="NAME" x="5.6896" y="87.2998" size="1.016" layer="21" font="vector"/>
+</element>
+<element name="MUX2" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="29.21" y="82.55" smashed="yes" rot="R270">
+<attribute name="NAME" x="24.7396" y="87.2998" size="1.016" layer="21" font="vector"/>
+</element>
+<element name="MUX3" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="48.26" y="82.55" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.7896" y="87.2998" size="1.016" layer="21" font="vector"/>
+</element>
+<element name="MUX4" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="67.31" y="82.55" smashed="yes" rot="R270">
+<attribute name="NAME" x="62.8396" y="87.2998" size="1.016" layer="21" font="vector"/>
+</element>
+<element name="MUX5" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="86.36" y="82.55" smashed="yes" rot="R270">
+<attribute name="NAME" x="81.8896" y="87.2998" size="1.016" layer="21" font="vector"/>
+</element>
+<element name="MUX6" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="105.41" y="82.55" smashed="yes" rot="R270">
+<attribute name="NAME" x="100.9396" y="87.2998" size="1.016" layer="21" font="vector"/>
+</element>
+<element name="MUX7" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="124.46" y="82.55" smashed="yes" rot="R270">
+<attribute name="NAME" x="119.9896" y="87.2998" size="1.016" layer="21" font="vector"/>
+</element>
+<element name="MUX8" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="143.51" y="82.55" smashed="yes" rot="R270">
+<attribute name="NAME" x="139.0396" y="87.2998" size="1.016" layer="21" font="vector"/>
+</element>
+<element name="MUX_OUT" library="MusicThingModular" package="WQP-PJ301M-12_JACK" value="THONKICONNNEW" x="162.56" y="82.55" smashed="yes" rot="R270">
+<attribute name="NAME" x="158.0896" y="87.2998" size="1.016" layer="21" font="vector"/>
+</element>
 <element name="R1" library="SparkFun-Resistors" package="0805" value="" x="8.89" y="92.71" rot="R90"/>
 <element name="R2" library="SparkFun-Resistors" package="0805" value="" x="33.655" y="96.52" rot="R180"/>
 <element name="R3" library="SparkFun-Resistors" package="0805" value="" x="46.99" y="92.46" rot="R90"/>
@@ -1108,12 +1132,18 @@ design rules under a new name.</description>
 <wire x1="105" y1="59" x2="105" y2="35.97" width="0.254" layer="16"/>
 <wire x1="105" y1="59" x2="105" y2="59.25" width="0.254" layer="16"/>
 <wire x1="106.75" y1="63" x2="106.75" y2="69.5" width="0.254" layer="1"/>
-<wire x1="106.75" y1="69.5" x2="107.635" y2="70.385" width="0.254" layer="1" curve="-90"/>
+<wire x1="107.635" y1="70.385" x2="106.75" y2="69.5" width="0.254" layer="1" curve="90"/>
 <wire x1="107.635" y1="70.385" x2="108.4534" y2="70.385" width="0.254" layer="1"/>
 <wire x1="108.4534" y1="70.385" x2="108.4734" y2="70.405" width="0.254" layer="1" curve="-90"/>
 <wire x1="108.4734" y1="70.405" x2="112.35" y2="70.405" width="0.254" layer="1"/>
 <wire x1="106.75" y1="63" x2="105" y2="61.25" width="0.254" layer="16" curve="90"/>
 <wire x1="105" y1="61.25" x2="105" y2="59" width="0.254" layer="16"/>
+<contactref element="IC4" pad="2"/>
+<wire x1="102.3066" y1="72.925" x2="102.4066" y2="73.025" width="0.1524" layer="1" curve="-90"/>
+<wire x1="102.4066" y1="73.025" x2="104.14" y2="73.025" width="0.1524" layer="1"/>
+<wire x1="104.14" y1="73.025" x2="106.045" y2="71.12" width="0.1524" layer="1" curve="-90"/>
+<wire x1="106.045" y1="71.12" x2="106.78" y2="70.385" width="0.1524" layer="1" curve="90"/>
+<wire x1="106.78" y1="70.385" x2="107.635" y2="70.385" width="0.1524" layer="1"/>
 <wire x1="44.45" y1="56.145" x2="92.975" y2="28.575" width="0" layer="19" extent="1-16"/>
 <wire x1="44.45" y1="58.995" x2="44.45" y2="56.145" width="0" layer="19" extent="16-16"/>
 <wire x1="33.02" y1="32.96" x2="44.45" y2="56.145" width="0" layer="19" extent="1-16"/>
@@ -1315,7 +1345,6 @@ design rules under a new name.</description>
 <contactref element="VR6" pad="3"/>
 <contactref element="VR7" pad="3"/>
 <contactref element="VR8" pad="3"/>
-<contactref element="IC4" pad="2"/>
 <contactref element="IC9" pad="16"/>
 <contactref element="C27" pad="1"/>
 <contactref element="IC1" pad="2"/>
@@ -1383,8 +1412,7 @@ design rules under a new name.</description>
 <wire x1="105.94" y1="51.94" x2="106" y2="51.88" width="0.254" layer="1" curve="-90"/>
 <wire x1="106" y1="31.75" x2="104" y2="29.75" width="0.254" layer="1" curve="-90"/>
 <wire x1="106" y1="51.88" x2="106" y2="31.75" width="0.254" layer="1"/>
-<wire x1="107.775" y1="54.1134" x2="102.3066" y2="72.925" width="0" layer="19" extent="1-1"/>
-<wire x1="102.91" y1="113.68" x2="102.3066" y2="72.925" width="0" layer="19" extent="1-1"/>
+<wire x1="56.885" y1="86.995" x2="89.36" y2="51.94" width="0" layer="19" extent="1-1"/>
 <wire x1="13.97" y1="73.395" x2="20.465" y2="87.005" width="0" layer="19" extent="1-16"/>
 <wire x1="17.145" y1="71.2216" x2="13.97" y2="73.395" width="0" layer="19" extent="16-16"/>
 <wire x1="38.1" y1="73.395" x2="17.145" y2="71.2216" width="0" layer="19" extent="16-16"/>
@@ -1742,7 +1770,11 @@ design rules under a new name.</description>
 <signal name="N$26">
 <contactref element="R8" pad="1"/>
 <contactref element="IC2" pad="4"/>
-<wire x1="60.8584" y1="93.98" x2="150.76" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="150.76" y1="96.52" x2="150.8125" y2="96.4675" width="0.1524" layer="1" curve="-90"/>
+<wire x1="150.8125" y1="94.2975" x2="149.86" y2="93.345" width="0.1524" layer="1" curve="-90"/>
+<wire x1="150.8125" y1="96.4675" x2="150.8125" y2="94.2975" width="0.1524" layer="1"/>
+<wire x1="149.86" y1="93.345" x2="74.6125" y2="93.345" width="0.1524" layer="1"/>
+<wire x1="60.8584" y1="93.98" x2="74.6125" y2="93.345" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="IC3" pad="13"/>
@@ -2099,13 +2131,11 @@ design rules under a new name.</description>
 <contactref element="CLOCK_SELECT" pad="2"/>
 <contactref element="IC9" pad="10"/>
 <wire x1="143.51" y1="67.31" x2="140.97" y2="64.77" width="0.2032" layer="16" curve="90"/>
-<wire x1="140.97" y1="64.77" x2="140.97" y2="55.88" width="0.2032" layer="16"/>
-<wire x1="140.97" y1="55.88" x2="140.97" y2="49.53" width="0.2032" layer="16"/>
-<wire x1="140.97" y1="49.53" x2="140.97" y2="48.895" width="0.2032" layer="16"/>
+<wire x1="140.97" y1="64.77" x2="140.97" y2="48.895" width="0.2032" layer="16"/>
 <wire x1="140.97" y1="48.895" x2="139.065" y2="46.99" width="0.2032" layer="16" curve="-90"/>
-<wire x1="139.065" y1="46.99" x2="136.525" y2="44.45" width="0.2032" layer="16" curve="90"/>
-<via x="136.525" y="44.45" extent="1-16" drill="0.35"/>
-<wire x1="136.525" y1="44.45" x2="136.525" y2="41.1734" width="0.2032" layer="1"/>
+<wire x1="139.065" y1="46.99" x2="136.525" y2="43.18" width="0.2032" layer="16" curve="90"/>
+<via x="136.525" y="43.18" extent="1-16" drill="0.35"/>
+<wire x1="136.525" y1="43.18" x2="136.525" y2="41.1734" width="0.2032" layer="1"/>
 </signal>
 <signal name="Q1">
 <contactref element="IC9" pad="9"/>
