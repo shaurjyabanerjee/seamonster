@@ -3414,6 +3414,76 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="alpha_8pos_rotary_switch">
+<packages>
+<package name="ALPHA_SR1712F">
+<pad name="GND@12" x="8" y="1.1" drill="2"/>
+<pad name="GND@11" x="-8" y="1.1" drill="2"/>
+<pad name="3" x="0" y="-9.15" drill="0.9"/>
+<pad name="2" x="2.5" y="-9.15" drill="0.9"/>
+<pad name="1" x="5" y="-9.15" drill="0.9"/>
+<pad name="4" x="-2.5" y="-9.15" drill="0.9"/>
+<pad name="5" x="-5" y="-9.15" drill="0.9"/>
+<pad name="8" x="0" y="9.15" drill="0.9"/>
+<pad name="9" x="2.5" y="9.15" drill="0.9"/>
+<pad name="10" x="5" y="9.15" drill="0.9"/>
+<pad name="7" x="-2.5" y="9.15" drill="0.9"/>
+<pad name="6" x="-5" y="9.15" drill="0.9"/>
+<wire x1="-8.6" y1="-10" x2="8.6" y2="-10" width="0.127" layer="21"/>
+<wire x1="8.6" y1="-10" x2="8.6" y2="10.05" width="0.127" layer="21"/>
+<wire x1="8.6" y1="10.05" x2="-8.6" y2="10.05" width="0.127" layer="21"/>
+<wire x1="-8.6" y1="10.05" x2="-8.6" y2="-10" width="0.127" layer="21"/>
+<text x="-8.89" y="11.43" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.89" y="-12.7" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ALPHA_SR1712F">
+<wire x1="-17.78" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="20.32" x2="17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-25.4" x2="-17.78" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-25.4" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
+<pin name="COM1" x="22.86" y="15.24" length="middle" rot="R180"/>
+<pin name="X1" x="-22.86" y="15.24" length="middle"/>
+<pin name="X2" x="-22.86" y="10.16" length="middle"/>
+<pin name="X3" x="-22.86" y="5.08" length="middle"/>
+<pin name="X4" x="-22.86" y="0" length="middle"/>
+<pin name="X5" x="-22.86" y="-5.08" length="middle"/>
+<pin name="X6" x="-22.86" y="-10.16" length="middle"/>
+<pin name="X7" x="-22.86" y="-15.24" length="middle"/>
+<pin name="X8" x="-22.86" y="-20.32" length="middle"/>
+<pin name="COM2" x="22.86" y="10.16" length="middle" rot="R180"/>
+<text x="-17.78" y="22.86" size="1.27" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-30.48" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ALPHA_ROTARY_SWITCH">
+<gates>
+<gate name="G$1" symbol="ALPHA_SR1712F" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ALPHA_SR1712F">
+<connects>
+<connect gate="G$1" pin="COM1" pad="1"/>
+<connect gate="G$1" pin="COM2" pad="10"/>
+<connect gate="G$1" pin="X1" pad="2"/>
+<connect gate="G$1" pin="X2" pad="3"/>
+<connect gate="G$1" pin="X3" pad="4"/>
+<connect gate="G$1" pin="X4" pad="5"/>
+<connect gate="G$1" pin="X5" pad="6"/>
+<connect gate="G$1" pin="X6" pad="7"/>
+<connect gate="G$1" pin="X7" pad="8"/>
+<connect gate="G$1" pin="X8" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3658,6 +3728,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="J1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
 <part name="J2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
 <part name="J3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
+<part name="U$2" library="alpha_8pos_rotary_switch" deviceset="ALPHA_ROTARY_SWITCH" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4090,6 +4161,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="LED13" gate="G$1" x="317.5" y="111.76" rot="R90"/>
 <instance part="LED14" gate="G$1" x="317.5" y="93.98" rot="R90"/>
 <instance part="GND54" gate="1" x="335.28" y="78.74"/>
+<instance part="U$2" gate="G$1" x="50.8" y="127" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4102,6 +4174,13 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC6" gate="A" pin="I"/>
 <wire x1="35.56" y1="180.34" x2="40.64" y2="180.34" width="0.1524" layer="91"/>
 <junction x="35.56" y="180.34"/>
+<pinref part="U$2" gate="G$1" pin="COM1"/>
+<wire x1="35.56" y1="180.34" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="COM2"/>
+<wire x1="35.56" y1="157.48" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="157.48" x2="40.64" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="157.48" x2="40.64" y2="149.86" width="0.1524" layer="91"/>
+<junction x="35.56" y="157.48"/>
 </segment>
 </net>
 <net name="N$43" class="0">
