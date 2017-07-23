@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.125" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1102,8 +1102,8 @@ design rules under a new name.</description>
 <element name="VR10" library="MusicThingModular" package="9MM_SNAP-IN_POT" value="100KΩ" x="34.29" y="67.31"/>
 <element name="VR11" library="MusicThingModular" package="9MM_SNAP-IN_POT" value="100KΩ" x="58.42" y="67.31"/>
 <element name="VR12" library="MusicThingModular" package="9MM_SNAP-IN_POT" value="100KΩ" x="82.55" y="67.31"/>
-<element name="R15" library="SparkFun-Resistors" package="0805" value="" x="54.61" y="29.845"/>
-<element name="R16" library="SparkFun-Resistors" package="0805" value="" x="73.66" y="29.845"/>
+<element name="R15" library="SparkFun-Resistors" package="0805" value="" x="91.155" y="45.61" rot="MR90"/>
+<element name="R16" library="SparkFun-Resistors" package="0805" value="" x="92.845" y="41.34" rot="MR90"/>
 <element name="R17" library="SparkFun-Resistors" package="0805" value="" x="121.525" y="57.0075" rot="R180"/>
 <element name="R18" library="SparkFun-Resistors" package="0805" value="" x="106.285" y="57.0075" rot="R180"/>
 <element name="C28" library="SparkFun-Capacitors" package="0805" value="0.1µF" x="33.02" y="29.21" rot="R270"/>
@@ -2733,23 +2733,47 @@ design rules under a new name.</description>
 <signal name="N$40">
 <contactref element="IC5" pad="12"/>
 <contactref element="R15" pad="2"/>
-<wire x1="55.51" y1="29.845" x2="119.205" y2="54.1134" width="0" layer="19" extent="1-1"/>
+<wire x1="119.205" y1="54.1134" x2="119.25" y2="54.1584" width="0.2032" layer="1" curve="90"/>
+<wire x1="119.25" y1="54.1584" x2="119.25" y2="57" width="0.2032" layer="1"/>
+<wire x1="119.25" y1="57" x2="118.5" y2="57.75" width="0.2032" layer="1" curve="90"/>
+<wire x1="118.5" y1="57.75" x2="112" y2="57.75" width="0.2032" layer="1"/>
+<wire x1="112" y1="57.75" x2="110.125" y2="55.875" width="0.2032" layer="1" curve="90"/>
+<wire x1="110.125" y1="52.125" x2="108.875" y2="50.875" width="0.2032" layer="1" curve="-90"/>
+<via x="100.25" y="50.875" extent="1-16" drill="0.35"/>
+<wire x1="110.125" y1="55.875" x2="110.125" y2="52.125" width="0.2032" layer="1"/>
+<wire x1="108.875" y1="50.875" x2="100.25" y2="50.875" width="0.2032" layer="1"/>
+<wire x1="100.25" y1="50.875" x2="97.25" y2="50.875" width="0.2032" layer="16"/>
+<wire x1="97.25" y1="50.875" x2="96.125" y2="52" width="0.2032" layer="16" curve="-90"/>
+<wire x1="96.125" y1="52" x2="95.125" y2="53" width="0.2032" layer="16" curve="90"/>
+<wire x1="91.5" y1="52.125" x2="92.375" y2="53" width="0.2032" layer="16" curve="-90"/>
+<wire x1="95.125" y1="53" x2="92.375" y2="53" width="0.2032" layer="16"/>
+<wire x1="91.155" y1="46.51" x2="91.5" y2="46.855" width="0.2032" layer="16" curve="90"/>
+<wire x1="91.5" y1="46.855" x2="91.5" y2="52.125" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$42">
 <contactref element="R15" pad="1"/>
 <contactref element="VR13" pad="3"/>
-<wire x1="53.71" y1="29.845" x2="50.775" y2="29.845" width="0.2032" layer="1"/>
-<wire x1="50.775" y1="29.845" x2="50.76" y2="29.83" width="0.2032" layer="1" curve="90"/>
+<wire x1="50.76" y1="29.83" x2="50.76" y2="38.26" width="0.2032" layer="16"/>
+<wire x1="50.76" y1="38.26" x2="51.5" y2="39" width="0.2032" layer="16" curve="-90"/>
+<wire x1="51.5" y1="39" x2="91.155" y2="44.71" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$71">
 <contactref element="IC8" pad="12"/>
 <contactref element="R16" pad="2"/>
-<wire x1="74.56" y1="29.845" x2="103.965" y2="54.1134" width="0" layer="19" extent="1-1"/>
+<wire x1="103.965" y1="54.1134" x2="104" y2="54.1484" width="0.2032" layer="1" curve="90"/>
+<wire x1="104" y1="54.1484" x2="104" y2="55.625" width="0.2032" layer="1"/>
+<wire x1="104" y1="55.625" x2="103" y2="56.625" width="0.2032" layer="1" curve="90"/>
+<wire x1="93.5" y1="56.625" x2="92.625" y2="55.75" width="0.2032" layer="1" curve="90"/>
+<via x="92.625" y="51.25" extent="1-16" drill="0.35"/>
+<wire x1="103" y1="56.625" x2="93.5" y2="56.625" width="0.2032" layer="1"/>
+<wire x1="92.625" y1="55.75" x2="92.625" y2="51.25" width="0.2032" layer="1"/>
+<wire x1="92.625" y1="42.46" x2="92.845" y2="42.24" width="0.2032" layer="16" curve="90"/>
+<wire x1="92.625" y1="51.25" x2="92.625" y2="42.46" width="0.2032" layer="16"/>
 </signal>
 <signal name="N$72">
 <contactref element="R16" pad="1"/>
 <contactref element="VR14" pad="3"/>
-<wire x1="72.76" y1="29.845" x2="69.825" y2="29.845" width="0.2032" layer="1"/>
+<wire x1="92.845" y1="40.44" x2="69.825" y2="29.845" width="0" layer="19" extent="1-16"/>
 <wire x1="69.825" y1="29.845" x2="69.81" y2="29.83" width="0.2032" layer="1" curve="90"/>
 </signal>
 <signal name="N$74">

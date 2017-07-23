@@ -3655,7 +3655,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="C26" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SUPPLY17" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="VR15" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="100KΩ"/>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CLOCK_SELECT" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device="" value="SPDT ON-ON"/>
@@ -3736,6 +3735,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="C34" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
 <part name="C35" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
 <part name="GND74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4596,11 +4596,11 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="C26" gate="G$1" x="360.68" y="71.12"/>
 <instance part="GND48" gate="1" x="360.68" y="58.42"/>
 <instance part="GND49" gate="1" x="370.84" y="66.04"/>
-<instance part="SUPPLY17" gate="G$1" x="284.48" y="91.44"/>
 <instance part="GND73" gate="1" x="251.46" y="218.44"/>
 <instance part="J1" gate="G$1" x="132.08" y="68.58"/>
 <instance part="J2" gate="G$1" x="132.08" y="55.88"/>
 <instance part="J3" gate="G$1" x="132.08" y="43.18"/>
+<instance part="P+8" gate="1" x="284.48" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -4985,6 +4985,12 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="370.84" y1="91.44" x2="370.84" y2="86.36" width="0.1524" layer="91"/>
 <junction x="353.06" y="91.44"/>
 </segment>
+<segment>
+<wire x1="284.48" y1="91.44" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$2" pin="EN"/>
+<wire x1="284.48" y1="81.28" x2="312.42" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="P+8" gate="1" pin="V+"/>
+</segment>
 </net>
 <net name="V-" class="0">
 <segment>
@@ -5162,12 +5168,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
 <pinref part="VR8" gate="G$1" pin="E"/>
-</segment>
-<segment>
-<pinref part="SUPPLY17" gate="G$1" pin="VCC"/>
-<wire x1="284.48" y1="91.44" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="G$2" pin="EN"/>
-<wire x1="284.48" y1="81.28" x2="312.42" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">

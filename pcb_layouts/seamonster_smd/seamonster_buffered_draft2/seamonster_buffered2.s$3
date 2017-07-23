@@ -3735,6 +3735,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="C33" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
 <part name="C34" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
 <part name="C35" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
+<part name="GND74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4174,6 +4175,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="C33" gate="G$1" x="33.02" y="142.24"/>
 <instance part="C34" gate="G$1" x="40.64" y="132.08"/>
 <instance part="C35" gate="G$1" x="48.26" y="121.92"/>
+<instance part="GND74" gate="1" x="48.26" y="104.14"/>
 </instances>
 <busses>
 </busses>
@@ -4274,6 +4276,32 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <junction x="365.76" y="111.76"/>
 <junction x="365.76" y="93.98"/>
 <pinref part="GND54" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C30" gate="G$1" pin="2"/>
+<wire x1="10.16" y1="167.64" x2="10.16" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="114.3" x2="17.78" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="C35" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="114.3" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="114.3" x2="33.02" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="114.3" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="114.3" x2="48.26" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="114.3" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="C34" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="129.54" x2="40.64" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="C33" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="139.7" x2="33.02" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="C32" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="149.86" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="C31" gate="G$1" pin="2"/>
+<wire x1="17.78" y1="160.02" x2="17.78" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="GND74" gate="1" pin="GND"/>
+<wire x1="48.26" y1="114.3" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
+<junction x="40.64" y="114.3"/>
+<junction x="48.26" y="114.3"/>
+<junction x="33.02" y="114.3"/>
+<junction x="25.4" y="114.3"/>
+<junction x="17.78" y="114.3"/>
 </segment>
 </net>
 <net name="N$50" class="0">
