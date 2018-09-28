@@ -2817,12 +2817,12 @@ design rules under a new name.</description>
 <contactref element="COMPLEX2" pad="P$3_SLEEVE"/>
 <wire x1="6.35" y1="12.55" x2="16.51" y2="12.55" width="0.254" layer="1"/>
 <wire x1="16.51" y1="12.55" x2="26.67" y2="12.55" width="0.254" layer="1"/>
-<wire x1="26.67" y1="12.55" x2="36.83" y2="12.55" width="0.254" layer="1"/>
+<wire x1="36.83" y1="12.55" x2="26.67" y2="12.55" width="0.254" layer="1"/>
 <wire x1="36.83" y1="12.55" x2="36.88" y2="12.5" width="0.254" layer="1" curve="90"/>
-<wire x1="36.88" y1="12.5" x2="47" y2="12.5" width="0" layer="19" extent="1-16"/>
 <wire x1="47" y1="12.5" x2="47.05" y2="12.55" width="0.254" layer="1" curve="-90"/>
-<wire x1="47.05" y1="12.55" x2="67.31" y2="12.55" width="0" layer="19" extent="1-16"/>
 <wire x1="67.31" y1="12.55" x2="77.47" y2="12.55" width="0.254" layer="1"/>
+<wire x1="47.05" y1="12.55" x2="36.83" y2="12.55" width="0.254" layer="1"/>
+<wire x1="47.05" y1="12.55" x2="67.31" y2="12.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$34">
 <contactref element="A" pad="P$2_SWITCH"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="8.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3718,6 +3718,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="CCO4" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="COMPLEX1" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="COMPLEX2" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
+<part name="GND70" library="supply1" deviceset="GND" device=""/>
 <part name="VCO1" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="VCO2" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="GND71" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3736,7 +3737,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="C35" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
 <part name="GND74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="GND70" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3856,7 +3856,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="157.48" y1="58.42" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="58.42" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="1"/>
-<junction x="157.48" y="58.42"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -3908,7 +3907,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="157.48" y1="83.82" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="83.82" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
-<junction x="157.48" y="83.82"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5497,44 +5495,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="71.12" y1="243.84" x2="81.28" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="243.84" x2="81.28" y2="238.76" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="CCO1" gate="G$1" pin="SLEEVE"/>
-<wire x1="345.44" y1="203.2" x2="337.82" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="203.2" x2="337.82" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="198.12" x2="365.76" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="198.12" x2="365.76" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="CCO2" gate="G$1" pin="SLEEVE"/>
-<wire x1="365.76" y1="180.34" x2="365.76" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="162.56" x2="365.76" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="144.78" x2="365.76" y2="127" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="127" x2="365.76" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="365.76" y1="109.22" x2="365.76" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="185.42" x2="337.82" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="185.42" x2="337.82" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="180.34" x2="365.76" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="CCO3" gate="G$1" pin="SLEEVE"/>
-<wire x1="345.44" y1="167.64" x2="337.82" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="167.64" x2="337.82" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="162.56" x2="365.76" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="CCO4" gate="G$1" pin="SLEEVE"/>
-<wire x1="345.44" y1="149.86" x2="337.82" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="149.86" x2="337.82" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="144.78" x2="365.76" y2="144.78" width="0.1524" layer="91"/>
-<junction x="365.76" y="144.78"/>
-<junction x="365.76" y="162.56"/>
-<junction x="365.76" y="180.34"/>
-<wire x1="365.76" y1="127" x2="337.82" y2="127" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="127" x2="337.82" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="COMPLEX1" gate="G$1" pin="SLEEVE"/>
-<wire x1="337.82" y1="132.08" x2="345.44" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="COMPLEX2" gate="G$1" pin="SLEEVE"/>
-<wire x1="345.44" y1="114.3" x2="337.82" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="114.3" x2="337.82" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="109.22" x2="365.76" y2="109.22" width="0.1524" layer="91"/>
-<junction x="365.76" y="109.22"/>
-<junction x="365.76" y="127"/>
-<pinref part="GND70" gate="1" pin="GND"/>
-</segment>
 </net>
 <net name="INV_C_IN" class="0">
 <segment>
@@ -5825,6 +5785,46 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <label x="332.74" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
+<net name="N$73" class="0">
+<segment>
+<pinref part="CCO1" gate="G$1" pin="SLEEVE"/>
+<wire x1="345.44" y1="203.2" x2="337.82" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="203.2" x2="337.82" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="198.12" x2="365.76" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="198.12" x2="365.76" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="CCO2" gate="G$1" pin="SLEEVE"/>
+<wire x1="365.76" y1="180.34" x2="365.76" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="162.56" x2="365.76" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="144.78" x2="365.76" y2="127" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="127" x2="365.76" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="185.42" x2="337.82" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="185.42" x2="337.82" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="180.34" x2="365.76" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="CCO3" gate="G$1" pin="SLEEVE"/>
+<wire x1="345.44" y1="167.64" x2="337.82" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="167.64" x2="337.82" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="162.56" x2="365.76" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="CCO4" gate="G$1" pin="SLEEVE"/>
+<wire x1="345.44" y1="149.86" x2="337.82" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="149.86" x2="337.82" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="144.78" x2="365.76" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="COMPLEX1" gate="G$1" pin="SLEEVE"/>
+<wire x1="345.44" y1="132.08" x2="337.82" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="132.08" x2="337.82" y2="127" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="127" x2="365.76" y2="127" width="0.1524" layer="91"/>
+<pinref part="COMPLEX2" gate="G$1" pin="SLEEVE"/>
+<wire x1="345.44" y1="114.3" x2="337.82" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="114.3" x2="337.82" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="109.22" x2="365.76" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="109.22" x2="365.76" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="GND70" gate="1" pin="GND"/>
+<junction x="365.76" y="109.22"/>
+<junction x="365.76" y="127"/>
+<junction x="365.76" y="144.78"/>
+<junction x="365.76" y="162.56"/>
+<junction x="365.76" y="180.34"/>
+</segment>
+</net>
 <net name="VCO2_OUT_BUFFERED" class="0">
 <segment>
 <pinref part="IC7" gate="C" pin="I0"/>
@@ -6086,26 +6086,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,30.48,132.08,IC2P,VEE,GND,,,"/>
-<approved hash="104,1,68.58,132.08,IC3P,VEE,GND,,,"/>
-<approved hash="104,1,111.76,132.08,IC6P,VSS,GND,,,"/>
-<approved hash="104,1,111.76,147.32,IC6P,VDD,VCC,,,"/>
-<approved hash="104,1,157.48,132.08,IC7P,VSS,GND,,,"/>
-<approved hash="104,1,157.48,147.32,IC7P,VDD,VCC,,,"/>
-<approved hash="104,1,203.2,132.08,IC5P,VSS,GND,,,"/>
-<approved hash="104,1,203.2,147.32,IC5P,VDD,VCC,,,"/>
-<approved hash="104,1,246.38,132.08,IC8P,VSS,GND,,,"/>
-<approved hash="104,1,246.38,147.32,IC8P,VDD,VCC,,,"/>
-<approved hash="104,1,284.48,132.08,IC9P,VSS,GND,,,"/>
-<approved hash="104,1,284.48,147.32,IC9P,VDD,VCC,,,"/>
-<approved hash="115,2,247.65,167.64,Q5,,,,,"/>
-<approved hash="115,2,248.92,170.18,Q4,,,,,"/>
-<approved hash="115,2,256.54,177.8,Q1,,,,,"/>
-<approved hash="115,2,250.19,172.72,Q3,,,,,"/>
-<approved hash="115,2,246.38,165.1,Q6,,,,,"/>
-<approved hash="115,2,251.46,175.26,Q2,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>

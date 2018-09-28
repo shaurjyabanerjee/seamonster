@@ -3856,7 +3856,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="157.48" y1="58.42" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="58.42" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="1"/>
-<junction x="157.48" y="58.42"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -3908,7 +3907,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="157.48" y1="83.82" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="83.82" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
-<junction x="157.48" y="83.82"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6086,26 +6084,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,30.48,132.08,IC2P,VEE,GND,,,"/>
-<approved hash="104,1,68.58,132.08,IC3P,VEE,GND,,,"/>
-<approved hash="104,1,111.76,132.08,IC6P,VSS,GND,,,"/>
-<approved hash="104,1,111.76,147.32,IC6P,VDD,VCC,,,"/>
-<approved hash="104,1,157.48,132.08,IC7P,VSS,GND,,,"/>
-<approved hash="104,1,157.48,147.32,IC7P,VDD,VCC,,,"/>
-<approved hash="104,1,203.2,132.08,IC5P,VSS,GND,,,"/>
-<approved hash="104,1,203.2,147.32,IC5P,VDD,VCC,,,"/>
-<approved hash="104,1,246.38,132.08,IC8P,VSS,GND,,,"/>
-<approved hash="104,1,246.38,147.32,IC8P,VDD,VCC,,,"/>
-<approved hash="104,1,284.48,132.08,IC9P,VSS,GND,,,"/>
-<approved hash="104,1,284.48,147.32,IC9P,VDD,VCC,,,"/>
-<approved hash="115,2,247.65,167.64,Q5,,,,,"/>
-<approved hash="115,2,248.92,170.18,Q4,,,,,"/>
-<approved hash="115,2,256.54,177.8,Q1,,,,,"/>
-<approved hash="115,2,250.19,172.72,Q3,,,,,"/>
-<approved hash="115,2,246.38,165.1,Q6,,,,,"/>
-<approved hash="115,2,251.46,175.26,Q2,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
