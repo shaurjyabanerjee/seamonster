@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3745,8 +3745,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
@@ -3778,16 +3778,16 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="SW2" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device="" value="SPDT ON-ON"/>
 <part name="SW3" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device="" value="SPDT ON-ON"/>
 <part name="SW4" library="MusicThingModular" deviceset="T-80-T-SPDT-ON-OFF-ON" device="" value="SPDT ON-ON"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1µF"/>
+<part name="CT2" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
+<part name="CT1" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1µF"/>
-<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1µF"/>
-<part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
-<part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1µF"/>
-<part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CT3" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
+<part name="CT4" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
+<part name="CT5" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
+<part name="CT6" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
+<part name="CT7" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
+<part name="CT8" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
@@ -3797,8 +3797,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="U1" library="MusicThingModular" deviceset="TL074" device="_SMD" value="TL084"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P-4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V-" device=""/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB10" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB11" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -3807,37 +3807,37 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY11" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
-<part name="C15" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
-<part name="C16" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C17" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="IC7" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4046" device="D"/>
 <part name="IC8" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4046" device="D"/>
 <part name="U2" library="MusicThingModular" deviceset="TL074" device="_SMD" value="TL084"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P-5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V-" device=""/>
-<part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
-<part name="C19" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB12" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB13" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C20" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
 <part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY16" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C21" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
-<part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB7" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
 <part name="CV_OUT" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
 <part name="U3" library="MusicThingModular" deviceset="TL074" device="_SMD" value="TL084"/>
 <part name="VR13" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="1MΩ"/>
 <part name="VR14" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="1MΩ"/>
-<part name="CVCO1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1µF"/>
-<part name="CVCO2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1µF"/>
+<part name="CT9" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1µF"/>
+<part name="CT10" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1µF"/>
 <part name="VR1" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="100KΩ"/>
 <part name="VR2" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="100KΩ"/>
 <part name="VR3" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="100KΩ"/>
@@ -3854,8 +3854,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C25" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
-<part name="C26" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB18" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB19" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VR15" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="100KΩ"/>
@@ -3887,7 +3887,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND54" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND55" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C27" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB9" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
 <part name="VR9" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="100KΩ"/>
 <part name="VR10" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="100KΩ"/>
 <part name="VR11" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="100KΩ"/>
@@ -3910,8 +3910,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND67" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P-6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V-" device=""/>
-<part name="C28" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
-<part name="C29" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB14" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB15" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
 <part name="GND68" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND69" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CCO1" library="MusicThingModular" deviceset="THONKICONN" device="NEW"/>
@@ -3929,23 +3929,31 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="J1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
 <part name="J2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
 <part name="J3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
-<part name="U$2" library="alpha_8pos_rotary_switch" deviceset="ALPHA_ROTARY_SWITCH" device=""/>
+<part name="U$2" library="alpha_8pos_rotary_switch" deviceset="ALPHA_ROTARY_SWITCH" device="" value="CLOCK RATE SELECT"/>
 <part name="GND74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
-<part name="C36" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device=""/>
-<part name="C37" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device=""/>
-<part name="C38" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device=""/>
-<part name="C39" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device=""/>
-<part name="C40" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device=""/>
-<part name="C41" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device=""/>
+<part name="CCLK1" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device=""/>
+<part name="CCLK2" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device=""/>
+<part name="CCLK3" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device=""/>
+<part name="CCLK4" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device=""/>
+<part name="CCLK5" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device=""/>
+<part name="CCLK6" library="SparkFun-Capacitors" deviceset="10UF-25V-20%(PTH)" device=""/>
 <part name="U4" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="TL084" device="D" package3d_urn="urn:adsk.eagle:package:16406/2"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="P-7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V-" device=""/>
-<part name="C23" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
-<part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB16" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
+<part name="CB17" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1µF"/>
 <part name="GND75" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND76" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="CTH1" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="CTH3" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="CTH2" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="CTH4" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="CTH5" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="CTH6" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="CTH7" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="CTH8" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
 </parts>
 <sheets>
 <sheet>
@@ -3966,14 +3974,14 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="P+3" gate="1" x="96.52" y="238.76"/>
 <instance part="GND4" gate="1" x="111.76" y="210.82"/>
 <instance part="SUPPLY1" gate="G$1" x="127" y="236.22"/>
-<instance part="C3" gate="G$1" x="96.52" y="223.52"/>
-<instance part="C4" gate="G$1" x="127" y="223.52"/>
+<instance part="CB1" gate="G$1" x="96.52" y="223.52"/>
+<instance part="CB2" gate="G$1" x="127" y="223.52"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="U1" gate="P" x="73.66" y="71.12"/>
 <instance part="P+5" gate="1" x="73.66" y="91.44"/>
 <instance part="P-4" gate="1" x="73.66" y="50.8"/>
-<instance part="C5" gate="G$1" x="86.36" y="76.2"/>
-<instance part="C6" gate="G$1" x="86.36" y="50.8"/>
+<instance part="CB10" gate="G$1" x="86.36" y="76.2"/>
+<instance part="CB11" gate="G$1" x="86.36" y="50.8"/>
 <instance part="GND10" gate="1" x="86.36" y="68.58"/>
 <instance part="GND11" gate="1" x="86.36" y="43.18"/>
 <instance part="IC5" gate="P" x="35.56" y="139.7"/>
@@ -3984,48 +3992,48 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="GND25" gate="1" x="73.66" y="119.38"/>
 <instance part="SUPPLY2" gate="G$1" x="35.56" y="157.48"/>
 <instance part="SUPPLY11" gate="G$1" x="73.66" y="157.48"/>
-<instance part="C15" gate="G$1" x="45.72" y="139.7"/>
-<instance part="C16" gate="G$1" x="83.82" y="139.7"/>
+<instance part="CB3" gate="G$1" x="45.72" y="139.7"/>
+<instance part="CB4" gate="G$1" x="83.82" y="139.7"/>
 <instance part="IC2" gate="P" x="111.76" y="139.7"/>
 <instance part="SUPPLY13" gate="G$1" x="111.76" y="157.48"/>
 <instance part="GND26" gate="1" x="111.76" y="119.38"/>
-<instance part="C17" gate="G$1" x="124.46" y="139.7"/>
+<instance part="CB5" gate="G$1" x="124.46" y="139.7"/>
 <instance part="U2" gate="P" x="114.3" y="71.12"/>
 <instance part="P+6" gate="1" x="114.3" y="91.44"/>
 <instance part="P-5" gate="1" x="114.3" y="50.8"/>
-<instance part="C18" gate="G$1" x="127" y="76.2"/>
-<instance part="C19" gate="G$1" x="127" y="50.8"/>
+<instance part="CB12" gate="G$1" x="127" y="76.2"/>
+<instance part="CB13" gate="G$1" x="127" y="50.8"/>
 <instance part="GND27" gate="1" x="127" y="68.58"/>
 <instance part="GND28" gate="1" x="127" y="43.18"/>
 <instance part="IC9" gate="P" x="157.48" y="139.7"/>
 <instance part="SUPPLY14" gate="G$1" x="157.48" y="157.48"/>
 <instance part="GND29" gate="1" x="157.48" y="119.38"/>
-<instance part="C20" gate="G$1" x="170.18" y="139.7"/>
+<instance part="CB6" gate="G$1" x="170.18" y="139.7"/>
 <instance part="IC7" gate="P" x="203.2" y="139.7"/>
 <instance part="IC8" gate="P" x="246.38" y="139.7"/>
 <instance part="SUPPLY15" gate="G$1" x="203.2" y="157.48"/>
 <instance part="SUPPLY16" gate="G$1" x="246.38" y="157.48"/>
 <instance part="GND30" gate="1" x="203.2" y="119.38"/>
 <instance part="GND31" gate="1" x="246.38" y="119.38"/>
-<instance part="C21" gate="G$1" x="215.9" y="139.7"/>
-<instance part="C22" gate="G$1" x="259.08" y="139.7"/>
+<instance part="CB7" gate="G$1" x="215.9" y="139.7"/>
+<instance part="CB8" gate="G$1" x="259.08" y="139.7"/>
 <instance part="IC3" gate="P" x="284.48" y="139.7"/>
 <instance part="SUPPLY18" gate="G$1" x="284.48" y="157.48"/>
 <instance part="GND55" gate="1" x="284.48" y="119.38"/>
-<instance part="C27" gate="G$1" x="297.18" y="139.7"/>
+<instance part="CB9" gate="G$1" x="297.18" y="139.7"/>
 <instance part="U3" gate="P" x="157.48" y="71.12"/>
 <instance part="P+7" gate="1" x="157.48" y="91.44"/>
 <instance part="P-6" gate="1" x="157.48" y="50.8"/>
-<instance part="C28" gate="G$1" x="170.18" y="76.2"/>
-<instance part="C29" gate="G$1" x="170.18" y="50.8"/>
+<instance part="CB14" gate="G$1" x="170.18" y="76.2"/>
+<instance part="CB15" gate="G$1" x="170.18" y="50.8"/>
 <instance part="GND68" gate="1" x="170.18" y="68.58"/>
 <instance part="GND69" gate="1" x="170.18" y="43.18"/>
 <instance part="IC1" gate="A1" x="111.76" y="231.14"/>
 <instance part="U4" gate="P" x="203.2" y="71.12"/>
 <instance part="P+9" gate="1" x="203.2" y="91.44"/>
 <instance part="P-7" gate="1" x="203.2" y="50.8"/>
-<instance part="C23" gate="G$1" x="215.9" y="76.2"/>
-<instance part="C24" gate="G$1" x="215.9" y="50.8"/>
+<instance part="CB16" gate="G$1" x="215.9" y="76.2"/>
+<instance part="CB17" gate="G$1" x="215.9" y="50.8"/>
 <instance part="GND75" gate="1" x="215.9" y="68.58"/>
 <instance part="GND76" gate="1" x="215.9" y="43.18"/>
 </instances>
@@ -4048,7 +4056,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="U1" gate="P" pin="V-"/>
 <pinref part="P-4" gate="1" pin="V-"/>
 <wire x1="73.66" y1="63.5" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="CB11" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="58.42" x2="73.66" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="58.42" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
@@ -4058,7 +4066,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="U2" gate="P" pin="V-"/>
 <pinref part="P-5" gate="1" pin="V-"/>
 <wire x1="114.3" y1="63.5" x2="114.3" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="1"/>
+<pinref part="CB13" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="58.42" x2="114.3" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="58.42" x2="127" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="127" y1="58.42" x2="127" y2="55.88" width="0.1524" layer="91"/>
@@ -4071,7 +4079,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="157.48" y1="58.42" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="58.42" x2="170.18" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="58.42" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C29" gate="G$1" pin="1"/>
+<pinref part="CB15" gate="G$1" pin="1"/>
 <junction x="157.48" y="58.42"/>
 </segment>
 <segment>
@@ -4080,7 +4088,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="203.2" y1="53.34" x2="203.2" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="58.42" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="58.42" x2="215.9" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="1"/>
+<pinref part="CB17" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="58.42" x2="215.9" y2="55.88" width="0.1524" layer="91"/>
 <junction x="203.2" y="58.42"/>
 </segment>
@@ -4101,7 +4109,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="P+3" gate="1" pin="V+"/>
 <wire x1="101.6" y1="231.14" x2="96.52" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="231.14" x2="96.52" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="CB1" gate="G$1" pin="1"/>
 <wire x1="96.52" y1="231.14" x2="96.52" y2="228.6" width="0.1524" layer="91"/>
 <junction x="96.52" y="231.14"/>
 <pinref part="IC1" gate="A1" pin="VI"/>
@@ -4110,7 +4118,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="U1" gate="P" pin="V+"/>
 <pinref part="P+5" gate="1" pin="V+"/>
 <wire x1="73.66" y1="78.74" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="CB10" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="83.82" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="81.28" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="83.82" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
@@ -4120,7 +4128,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="P+6" gate="1" pin="V+"/>
 <pinref part="U2" gate="P" pin="V+"/>
 <wire x1="114.3" y1="88.9" x2="114.3" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C18" gate="G$1" pin="1"/>
+<pinref part="CB12" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="83.82" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="83.82" x2="127" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="127" y1="83.82" x2="127" y2="81.28" width="0.1524" layer="91"/>
@@ -4130,7 +4138,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="P+7" gate="1" pin="V+"/>
 <pinref part="U3" gate="P" pin="V+"/>
 <wire x1="157.48" y1="88.9" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C28" gate="G$1" pin="1"/>
+<pinref part="CB14" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="83.82" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="83.82" x2="170.18" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="83.82" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
@@ -4140,7 +4148,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="P+9" gate="1" pin="V+"/>
 <pinref part="U4" gate="P" pin="V+"/>
 <wire x1="203.2" y1="88.9" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C23" gate="G$1" pin="1"/>
+<pinref part="CB16" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="83.82" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="83.82" x2="215.9" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="83.82" x2="215.9" y2="81.28" width="0.1524" layer="91"/>
@@ -4169,23 +4177,23 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="111.76" y1="223.52" x2="111.76" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="CB1" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="215.9" x2="111.76" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="220.98" x2="96.52" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="215.9" x2="111.76" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="CB2" gate="G$1" pin="2"/>
 <wire x1="127" y1="220.98" x2="127" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="127" y1="215.9" x2="111.76" y2="215.9" width="0.1524" layer="91"/>
 <junction x="111.76" y="215.9"/>
 <pinref part="IC1" gate="A1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="CB11" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="86.36" y1="48.26" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="CB10" gate="G$1" pin="2"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="86.36" y1="73.66" x2="86.36" y2="71.12" width="0.1524" layer="91"/>
 </segment>
@@ -4198,7 +4206,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC5" gate="P" pin="GND"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="35.56" y1="132.08" x2="35.56" y2="127" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="CB3" gate="G$1" pin="2"/>
 <wire x1="35.56" y1="127" x2="35.56" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="137.16" x2="45.72" y2="127" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
@@ -4213,7 +4221,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC4" gate="P" pin="GND"/>
 <pinref part="GND25" gate="1" pin="GND"/>
 <wire x1="73.66" y1="132.08" x2="73.66" y2="127" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="CB4" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="127" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="137.16" x2="83.82" y2="127" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="127" x2="73.66" y2="127" width="0.1524" layer="91"/>
@@ -4223,19 +4231,19 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC2" gate="P" pin="VSS"/>
 <pinref part="GND26" gate="1" pin="GND"/>
 <wire x1="111.76" y1="132.08" x2="111.76" y2="127" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="CB5" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="127" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="137.16" x2="124.46" y2="127" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="127" x2="111.76" y2="127" width="0.1524" layer="91"/>
 <junction x="111.76" y="127"/>
 </segment>
 <segment>
-<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="CB12" gate="G$1" pin="2"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 <wire x1="127" y1="73.66" x2="127" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C19" gate="G$1" pin="2"/>
+<pinref part="CB13" gate="G$1" pin="2"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 <wire x1="127" y1="48.26" x2="127" y2="45.72" width="0.1524" layer="91"/>
 </segment>
@@ -4243,7 +4251,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC9" gate="P" pin="VSS"/>
 <pinref part="GND29" gate="1" pin="GND"/>
 <wire x1="157.48" y1="132.08" x2="157.48" y2="127" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="2"/>
+<pinref part="CB6" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="127" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="137.16" x2="170.18" y2="127" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="127" x2="157.48" y2="127" width="0.1524" layer="91"/>
@@ -4253,7 +4261,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC7" gate="P" pin="VSS"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 <wire x1="203.2" y1="132.08" x2="203.2" y2="127" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="CB7" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="127" x2="203.2" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="137.16" x2="215.9" y2="127" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="127" x2="203.2" y2="127" width="0.1524" layer="91"/>
@@ -4263,7 +4271,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC8" gate="P" pin="VSS"/>
 <pinref part="GND31" gate="1" pin="GND"/>
 <wire x1="246.38" y1="132.08" x2="246.38" y2="127" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="CB8" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="127" x2="246.38" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="137.16" x2="259.08" y2="127" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
@@ -4273,29 +4281,29 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC3" gate="P" pin="VSS"/>
 <pinref part="GND55" gate="1" pin="GND"/>
 <wire x1="284.48" y1="132.08" x2="284.48" y2="127" width="0.1524" layer="91"/>
-<pinref part="C27" gate="G$1" pin="2"/>
+<pinref part="CB9" gate="G$1" pin="2"/>
 <wire x1="284.48" y1="127" x2="284.48" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="127" x2="297.18" y2="127" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="127" x2="297.18" y2="137.16" width="0.1524" layer="91"/>
 <junction x="284.48" y="127"/>
 </segment>
 <segment>
-<pinref part="C28" gate="G$1" pin="2"/>
+<pinref part="CB14" gate="G$1" pin="2"/>
 <pinref part="GND68" gate="1" pin="GND"/>
 <wire x1="170.18" y1="73.66" x2="170.18" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C29" gate="G$1" pin="2"/>
+<pinref part="CB15" gate="G$1" pin="2"/>
 <pinref part="GND69" gate="1" pin="GND"/>
 <wire x1="170.18" y1="48.26" x2="170.18" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C23" gate="G$1" pin="2"/>
+<pinref part="CB16" gate="G$1" pin="2"/>
 <pinref part="GND75" gate="1" pin="GND"/>
 <wire x1="215.9" y1="73.66" x2="215.9" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C24" gate="G$1" pin="2"/>
+<pinref part="CB17" gate="G$1" pin="2"/>
 <pinref part="GND76" gate="1" pin="GND"/>
 <wire x1="215.9" y1="48.26" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
 </segment>
@@ -4305,7 +4313,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="121.92" y1="231.14" x2="127" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
 <wire x1="127" y1="231.14" x2="127" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="CB2" gate="G$1" pin="1"/>
 <wire x1="127" y1="231.14" x2="127" y2="228.6" width="0.1524" layer="91"/>
 <junction x="127" y="231.14"/>
 <pinref part="IC1" gate="A1" pin="VO"/>
@@ -4314,7 +4322,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC4" gate="P" pin="VCC"/>
 <pinref part="SUPPLY11" gate="G$1" pin="VCC"/>
 <wire x1="73.66" y1="147.32" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="CB4" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="152.4" x2="73.66" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="152.4" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="152.4" x2="83.82" y2="144.78" width="0.1524" layer="91"/>
@@ -4324,7 +4332,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="IC5" gate="P" pin="VCC"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 <wire x1="35.56" y1="147.32" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="CB3" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="152.4" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="152.4" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="152.4" x2="45.72" y2="144.78" width="0.1524" layer="91"/>
@@ -4334,7 +4342,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
 <pinref part="IC2" gate="P" pin="VDD"/>
 <wire x1="111.76" y1="157.48" x2="111.76" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="1"/>
+<pinref part="CB5" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="152.4" x2="111.76" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="152.4" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
@@ -4344,7 +4352,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="SUPPLY14" gate="G$1" pin="VCC"/>
 <pinref part="IC9" gate="P" pin="VDD"/>
 <wire x1="157.48" y1="157.48" x2="157.48" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C20" gate="G$1" pin="1"/>
+<pinref part="CB6" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="152.4" x2="157.48" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="152.4" x2="170.18" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="152.4" x2="170.18" y2="144.78" width="0.1524" layer="91"/>
@@ -4354,7 +4362,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="SUPPLY15" gate="G$1" pin="VCC"/>
 <pinref part="IC7" gate="P" pin="VDD"/>
 <wire x1="203.2" y1="157.48" x2="203.2" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C21" gate="G$1" pin="1"/>
+<pinref part="CB7" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="152.4" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="152.4" x2="215.9" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="152.4" x2="215.9" y2="144.78" width="0.1524" layer="91"/>
@@ -4364,7 +4372,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="SUPPLY16" gate="G$1" pin="VCC"/>
 <pinref part="IC8" gate="P" pin="VDD"/>
 <wire x1="246.38" y1="157.48" x2="246.38" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="1"/>
+<pinref part="CB8" gate="G$1" pin="1"/>
 <wire x1="246.38" y1="152.4" x2="246.38" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="152.4" x2="259.08" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="152.4" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
@@ -4374,7 +4382,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="SUPPLY18" gate="G$1" pin="VCC"/>
 <pinref part="IC3" gate="P" pin="VDD"/>
 <wire x1="284.48" y1="157.48" x2="284.48" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C27" gate="G$1" pin="1"/>
+<pinref part="CB9" gate="G$1" pin="1"/>
 <wire x1="284.48" y1="152.4" x2="284.48" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="152.4" x2="297.18" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="152.4" x2="297.18" y2="144.78" width="0.1524" layer="91"/>
@@ -4419,12 +4427,12 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="GND54" gate="1" x="175.26" y="15.24"/>
 <instance part="U$2" gate="G$1" x="93.98" y="165.1"/>
 <instance part="GND74" gate="1" x="68.58" y="104.14"/>
-<instance part="C36" gate="G$1" x="30.48" y="172.72"/>
-<instance part="C37" gate="G$1" x="38.1" y="165.1"/>
-<instance part="C38" gate="G$1" x="45.72" y="154.94"/>
-<instance part="C39" gate="G$1" x="53.34" y="144.78"/>
-<instance part="C40" gate="G$1" x="60.96" y="134.62"/>
-<instance part="C41" gate="G$1" x="68.58" y="124.46"/>
+<instance part="CCLK1" gate="G$1" x="17.78" y="172.72"/>
+<instance part="CCLK2" gate="G$1" x="27.94" y="165.1"/>
+<instance part="CCLK3" gate="G$1" x="38.1" y="154.94"/>
+<instance part="CCLK4" gate="G$1" x="48.26" y="144.78"/>
+<instance part="CCLK5" gate="G$1" x="58.42" y="134.62"/>
+<instance part="CCLK6" gate="G$1" x="68.58" y="127"/>
 <instance part="U3" gate="C" x="289.56" y="175.26"/>
 <instance part="U3" gate="D" x="289.56" y="157.48"/>
 <instance part="U4" gate="A" x="289.56" y="139.7"/>
@@ -4533,30 +4541,30 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="GND54" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="30.48" y1="167.64" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="114.3" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="114.3" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="114.3" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="114.3" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="129.54" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="139.7" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="149.86" x2="45.72" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="160.02" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="167.64" x2="17.78" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="114.3" x2="48.26" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="114.3" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="114.3" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="114.3" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="129.54" x2="58.42" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="139.7" x2="48.26" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="149.86" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="160.02" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="GND74" gate="1" pin="GND"/>
 <wire x1="68.58" y1="114.3" x2="68.58" y2="106.68" width="0.1524" layer="91"/>
-<junction x="60.96" y="114.3"/>
+<junction x="58.42" y="114.3"/>
 <junction x="68.58" y="114.3"/>
-<junction x="53.34" y="114.3"/>
-<junction x="45.72" y="114.3"/>
+<junction x="48.26" y="114.3"/>
 <junction x="38.1" y="114.3"/>
-<pinref part="C36" gate="G$1" pin="-"/>
-<pinref part="C37" gate="G$1" pin="-"/>
-<pinref part="C38" gate="G$1" pin="-"/>
-<pinref part="C39" gate="G$1" pin="-"/>
-<pinref part="C40" gate="G$1" pin="-"/>
-<pinref part="C41" gate="G$1" pin="-"/>
+<junction x="27.94" y="114.3"/>
+<pinref part="CCLK1" gate="G$1" pin="-"/>
+<pinref part="CCLK2" gate="G$1" pin="-"/>
+<pinref part="CCLK3" gate="G$1" pin="-"/>
+<pinref part="CCLK4" gate="G$1" pin="-"/>
+<pinref part="CCLK5" gate="G$1" pin="-"/>
+<pinref part="CCLK6" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="N$50" class="0">
@@ -4682,49 +4690,49 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="X1"/>
-<wire x1="71.12" y1="180.34" x2="30.48" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="180.34" x2="30.48" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="C36" gate="G$1" pin="+"/>
+<wire x1="71.12" y1="180.34" x2="17.78" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="180.34" x2="17.78" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="CCLK1" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="X2"/>
-<wire x1="71.12" y1="175.26" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="175.26" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="C37" gate="G$1" pin="+"/>
+<wire x1="71.12" y1="175.26" x2="27.94" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="175.26" x2="27.94" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="CCLK2" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="X3"/>
-<wire x1="71.12" y1="170.18" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="170.18" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C38" gate="G$1" pin="+"/>
+<wire x1="71.12" y1="170.18" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="170.18" x2="38.1" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="CCLK3" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="X4"/>
-<wire x1="71.12" y1="165.1" x2="53.34" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="165.1" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="C39" gate="G$1" pin="+"/>
+<wire x1="71.12" y1="165.1" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="165.1" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="CCLK4" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="X5"/>
-<wire x1="71.12" y1="160.02" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="160.02" x2="60.96" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C40" gate="G$1" pin="+"/>
+<wire x1="71.12" y1="160.02" x2="58.42" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="160.02" x2="58.42" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="CCLK5" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="X6"/>
 <wire x1="71.12" y1="154.94" x2="68.58" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="154.94" x2="68.58" y2="127" width="0.1524" layer="91"/>
-<pinref part="C41" gate="G$1" pin="+"/>
+<wire x1="68.58" y1="154.94" x2="68.58" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="CCLK6" gate="G$1" pin="+"/>
 </segment>
 </net>
 <net name="Q1BUFFERED" class="0">
@@ -4991,8 +4999,8 @@ by U2D to create the final MUX output
 <instance part="GND45" gate="1" x="60.96" y="137.16"/>
 <instance part="GND46" gate="1" x="71.12" y="119.38"/>
 <instance part="GND47" gate="1" x="81.28" y="101.6"/>
-<instance part="C25" gate="G$1" x="317.5" y="91.44"/>
-<instance part="C26" gate="G$1" x="307.34" y="81.28"/>
+<instance part="CB18" gate="G$1" x="317.5" y="91.44"/>
+<instance part="CB19" gate="G$1" x="307.34" y="81.28"/>
 <instance part="GND48" gate="1" x="307.34" y="68.58"/>
 <instance part="GND49" gate="1" x="317.5" y="76.2"/>
 <instance part="GND73" gate="1" x="251.46" y="218.44"/>
@@ -5285,12 +5293,12 @@ by U2D to create the final MUX output
 <wire x1="81.28" y1="109.22" x2="81.28" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C26" gate="G$1" pin="2"/>
+<pinref part="CB19" gate="G$1" pin="2"/>
 <pinref part="GND48" gate="1" pin="GND"/>
 <wire x1="307.34" y1="78.74" x2="307.34" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C25" gate="G$1" pin="2"/>
+<pinref part="CB18" gate="G$1" pin="2"/>
 <pinref part="GND49" gate="1" pin="GND"/>
 <wire x1="317.5" y1="88.9" x2="317.5" y2="78.74" width="0.1524" layer="91"/>
 </segment>
@@ -5373,7 +5381,7 @@ by U2D to create the final MUX output
 <pinref part="P+4" gate="1" pin="V+"/>
 <wire x1="284.48" y1="101.6" x2="299.72" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="101.6" x2="299.72" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C25" gate="G$1" pin="1"/>
+<pinref part="CB18" gate="G$1" pin="1"/>
 <wire x1="299.72" y1="101.6" x2="317.5" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="101.6" x2="317.5" y2="96.52" width="0.1524" layer="91"/>
 <junction x="299.72" y="101.6"/>
@@ -5391,7 +5399,7 @@ by U2D to create the final MUX output
 <pinref part="P-3" gate="1" pin="V-"/>
 <wire x1="284.48" y1="96.52" x2="299.72" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="96.52" x2="299.72" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C26" gate="G$1" pin="1"/>
+<pinref part="CB19" gate="G$1" pin="1"/>
 <wire x1="299.72" y1="96.52" x2="307.34" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="96.52" x2="307.34" y2="86.36" width="0.1524" layer="91"/>
 <junction x="299.72" y="96.52"/>
@@ -5738,26 +5746,34 @@ by U2D to create the final MUX output
 <instance part="IC9" gate="B" x="210.82" y="210.82"/>
 <instance part="IC9" gate="C" x="180.34" y="106.68"/>
 <instance part="IC9" gate="D" x="210.82" y="104.14"/>
-<instance part="SW1" gate="G$1" x="58.42" y="210.82" rot="R90"/>
-<instance part="SW2" gate="G$1" x="58.42" y="157.48" rot="R90"/>
-<instance part="SW3" gate="G$1" x="58.42" y="104.14" rot="R90"/>
-<instance part="SW4" gate="G$1" x="58.42" y="48.26" rot="R90"/>
-<instance part="C7" gate="G$1" x="45.72" y="200.66"/>
-<instance part="C8" gate="G$1" x="35.56" y="200.66"/>
-<instance part="GND32" gate="1" x="45.72" y="190.5"/>
-<instance part="GND33" gate="1" x="35.56" y="190.5"/>
-<instance part="C9" gate="G$1" x="35.56" y="147.32"/>
-<instance part="C10" gate="G$1" x="45.72" y="147.32"/>
-<instance part="C11" gate="G$1" x="35.56" y="93.98"/>
-<instance part="C12" gate="G$1" x="45.72" y="93.98"/>
-<instance part="C13" gate="G$1" x="35.56" y="38.1"/>
-<instance part="C14" gate="G$1" x="45.72" y="38.1"/>
-<instance part="GND34" gate="1" x="45.72" y="137.16"/>
-<instance part="GND35" gate="1" x="35.56" y="137.16"/>
-<instance part="GND36" gate="1" x="35.56" y="83.82"/>
-<instance part="GND37" gate="1" x="45.72" y="83.82"/>
-<instance part="GND38" gate="1" x="45.72" y="27.94"/>
-<instance part="GND39" gate="1" x="35.56" y="27.94"/>
+<instance part="SW1" gate="G$1" x="58.42" y="210.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="60.325" y="222.25" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SW2" gate="G$1" x="58.42" y="157.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="60.325" y="168.91" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SW3" gate="G$1" x="58.42" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="60.325" y="115.57" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SW4" gate="G$1" x="58.42" y="48.26" smashed="yes" rot="R90">
+<attribute name="NAME" x="60.325" y="59.69" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="CT2" gate="G$1" x="45.72" y="198.12"/>
+<instance part="CT1" gate="G$1" x="35.56" y="198.12"/>
+<instance part="GND32" gate="1" x="45.72" y="187.96"/>
+<instance part="GND33" gate="1" x="35.56" y="187.96"/>
+<instance part="CT3" gate="G$1" x="35.56" y="144.78"/>
+<instance part="CT4" gate="G$1" x="45.72" y="144.78"/>
+<instance part="CT5" gate="G$1" x="35.56" y="91.44"/>
+<instance part="CT6" gate="G$1" x="45.72" y="91.44"/>
+<instance part="CT7" gate="G$1" x="35.56" y="35.56"/>
+<instance part="CT8" gate="G$1" x="45.72" y="35.56"/>
+<instance part="GND34" gate="1" x="45.72" y="134.62"/>
+<instance part="GND35" gate="1" x="35.56" y="134.62"/>
+<instance part="GND36" gate="1" x="35.56" y="81.28"/>
+<instance part="GND37" gate="1" x="45.72" y="81.28"/>
+<instance part="GND38" gate="1" x="45.72" y="25.4"/>
+<instance part="GND39" gate="1" x="35.56" y="25.4"/>
 <instance part="U1" gate="A" x="116.84" y="210.82"/>
 <instance part="U1" gate="B" x="116.84" y="157.48"/>
 <instance part="U1" gate="C" x="116.84" y="104.14"/>
@@ -5779,6 +5795,14 @@ by U2D to create the final MUX output
 <instance part="COMPLEX1" gate="G$1" x="350.52" y="134.62"/>
 <instance part="COMPLEX2" gate="G$1" x="350.52" y="116.84"/>
 <instance part="GND70" gate="1" x="365.76" y="91.44"/>
+<instance part="CTH1" gate="G$1" x="22.86" y="200.66"/>
+<instance part="CTH3" gate="G$1" x="22.86" y="147.32"/>
+<instance part="CTH2" gate="G$1" x="58.42" y="200.66"/>
+<instance part="CTH4" gate="G$1" x="58.42" y="147.32"/>
+<instance part="CTH5" gate="G$1" x="22.86" y="93.98"/>
+<instance part="CTH6" gate="G$1" x="58.42" y="93.98"/>
+<instance part="CTH7" gate="G$1" x="25.4" y="38.1"/>
+<instance part="CTH8" gate="G$1" x="58.42" y="38.1"/>
 </instances>
 <busses>
 </busses>
@@ -5811,59 +5835,109 @@ by U2D to create the final MUX output
 <net name="N$47" class="0">
 <segment>
 <pinref part="SW1" gate="G$1" pin="O"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="CT2" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="210.82" x2="45.72" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="210.82" x2="45.72" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="205.74" x2="45.72" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="205.74" x2="58.42" y2="205.74" width="0.1524" layer="91"/>
+<junction x="45.72" y="205.74"/>
+<pinref part="CTH2" gate="G$1" pin="+"/>
+<wire x1="58.42" y1="205.74" x2="58.42" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
 <pinref part="SW1" gate="G$1" pin="S"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="CT1" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="215.9" x2="35.56" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="215.9" x2="35.56" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="CTH1" gate="G$1" pin="+"/>
+<wire x1="35.56" y1="205.74" x2="35.56" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="205.74" x2="22.86" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="205.74" x2="22.86" y2="203.2" width="0.1524" layer="91"/>
+<junction x="35.56" y="205.74"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="CT2" gate="G$1" pin="2"/>
 <pinref part="GND32" gate="1" pin="GND"/>
-<wire x1="45.72" y1="198.12" x2="45.72" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="195.58" x2="45.72" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="CTH2" gate="G$1" pin="-"/>
+<wire x1="45.72" y1="193.04" x2="45.72" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="195.58" x2="58.42" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="193.04" x2="45.72" y2="193.04" width="0.1524" layer="91"/>
+<junction x="45.72" y="193.04"/>
 </segment>
 <segment>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="CT1" gate="G$1" pin="2"/>
 <pinref part="GND33" gate="1" pin="GND"/>
-<wire x1="35.56" y1="198.12" x2="35.56" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="195.58" x2="35.56" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="CTH1" gate="G$1" pin="-"/>
+<wire x1="35.56" y1="193.04" x2="35.56" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="195.58" x2="22.86" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="193.04" x2="35.56" y2="193.04" width="0.1524" layer="91"/>
+<junction x="35.56" y="193.04"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="CT3" gate="G$1" pin="2"/>
 <pinref part="GND35" gate="1" pin="GND"/>
-<wire x1="35.56" y1="144.78" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="142.24" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="CTH3" gate="G$1" pin="-"/>
+<wire x1="35.56" y1="139.7" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="142.24" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
+<junction x="35.56" y="139.7"/>
 </segment>
 <segment>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="CT4" gate="G$1" pin="2"/>
 <pinref part="GND34" gate="1" pin="GND"/>
-<wire x1="45.72" y1="144.78" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="142.24" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="CTH4" gate="G$1" pin="-"/>
+<wire x1="45.72" y1="139.7" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="142.24" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="139.7" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
+<junction x="45.72" y="139.7"/>
 </segment>
 <segment>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="CT5" gate="G$1" pin="2"/>
 <pinref part="GND36" gate="1" pin="GND"/>
-<wire x1="35.56" y1="91.44" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="88.9" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="CTH5" gate="G$1" pin="-"/>
+<wire x1="35.56" y1="86.36" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="88.9" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
+<junction x="35.56" y="86.36"/>
 </segment>
 <segment>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="CT6" gate="G$1" pin="2"/>
 <pinref part="GND37" gate="1" pin="GND"/>
-<wire x1="45.72" y1="91.44" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="88.9" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="CTH6" gate="G$1" pin="-"/>
+<wire x1="45.72" y1="86.36" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="88.9" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
+<junction x="45.72" y="86.36"/>
 </segment>
 <segment>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="CT7" gate="G$1" pin="2"/>
 <pinref part="GND39" gate="1" pin="GND"/>
-<wire x1="35.56" y1="35.56" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="33.02" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="CTH7" gate="G$1" pin="-"/>
+<wire x1="35.56" y1="30.48" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="33.02" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
+<junction x="35.56" y="30.48"/>
 </segment>
 <segment>
-<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="CT8" gate="G$1" pin="2"/>
 <pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="45.72" y1="35.56" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="33.02" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="CTH8" gate="G$1" pin="-"/>
+<wire x1="45.72" y1="30.48" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="30.48" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
+<junction x="45.72" y="30.48"/>
 </segment>
 <segment>
 <pinref part="GND59" gate="1" pin="GND"/>
@@ -5962,7 +6036,12 @@ by U2D to create the final MUX output
 <pinref part="SW2" gate="G$1" pin="O"/>
 <wire x1="53.34" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="157.48" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="CT4" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="152.4" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="152.4" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
+<junction x="45.72" y="152.4"/>
+<pinref part="CTH4" gate="G$1" pin="+"/>
+<wire x1="58.42" y1="152.4" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -5970,7 +6049,12 @@ by U2D to create the final MUX output
 <pinref part="SW2" gate="G$1" pin="S"/>
 <wire x1="53.34" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="162.56" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="CT3" gate="G$1" pin="1"/>
+<pinref part="CTH3" gate="G$1" pin="+"/>
+<wire x1="35.56" y1="152.4" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="152.4" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="152.4" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
+<junction x="35.56" y="152.4"/>
 </segment>
 </net>
 <net name="INV_D_OUT" class="0">
@@ -6001,17 +6085,27 @@ by U2D to create the final MUX output
 <net name="N$59" class="0">
 <segment>
 <pinref part="SW3" gate="G$1" pin="O"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="CT6" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="104.14" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="104.14" x2="45.72" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="99.06" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
+<junction x="45.72" y="99.06"/>
+<pinref part="CTH6" gate="G$1" pin="+"/>
+<wire x1="58.42" y1="99.06" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$60" class="0">
 <segment>
 <pinref part="SW3" gate="G$1" pin="S"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="CT5" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="109.22" x2="35.56" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="109.22" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="99.06" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="99.06" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
+<junction x="35.56" y="99.06"/>
+<pinref part="CTH5" gate="G$1" pin="+"/>
+<wire x1="22.86" y1="99.06" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INV_E_OUT" class="0">
@@ -6044,15 +6138,25 @@ by U2D to create the final MUX output
 <pinref part="SW4" gate="G$1" pin="O"/>
 <wire x1="53.34" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="48.26" x2="45.72" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="CT8" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="43.18" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+<junction x="45.72" y="43.18"/>
+<pinref part="CTH8" gate="G$1" pin="+"/>
+<wire x1="58.42" y1="43.18" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$64" class="0">
 <segment>
 <pinref part="SW4" gate="G$1" pin="S"/>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="CT7" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="53.34" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="43.18" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<junction x="35.56" y="43.18"/>
+<pinref part="CTH7" gate="G$1" pin="+"/>
+<wire x1="25.4" y1="43.18" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CCO1_BUFFERED" class="0">
@@ -6251,8 +6355,8 @@ by U2D to create the final MUX output
 <instance part="U3" gate="B" x="223.52" y="165.1"/>
 <instance part="VR13" gate="G$1" x="91.44" y="78.74"/>
 <instance part="VR14" gate="G$1" x="205.74" y="78.74"/>
-<instance part="CVCO1" gate="G$1" x="73.66" y="121.92"/>
-<instance part="CVCO2" gate="G$1" x="187.96" y="121.92"/>
+<instance part="CT9" gate="G$1" x="73.66" y="121.92"/>
+<instance part="CT10" gate="G$1" x="187.96" y="121.92"/>
 <instance part="R15" gate="G$1" x="91.44" y="101.6" rot="R90"/>
 <instance part="R16" gate="G$1" x="205.74" y="101.6" rot="R90"/>
 <instance part="GND61" gate="1" x="193.04" y="71.12"/>
@@ -6339,7 +6443,7 @@ by U2D to create the final MUX output
 </net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="CVCO1" gate="G$1" pin="1"/>
+<pinref part="CT9" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="127" x2="73.66" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="129.54" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="129.54" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
@@ -6351,7 +6455,7 @@ by U2D to create the final MUX output
 <segment>
 <pinref part="IC7" gate="A" pin="CX@2"/>
 <wire x1="93.98" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="CVCO1" gate="G$1" pin="2"/>
+<pinref part="CT9" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="116.84" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6360,14 +6464,14 @@ by U2D to create the final MUX output
 <pinref part="IC8" gate="A" pin="CX@1"/>
 <wire x1="208.28" y1="124.46" x2="200.66" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="124.46" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="CVCO2" gate="G$1" pin="1"/>
+<pinref part="CT10" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="129.54" x2="187.96" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="129.54" x2="187.96" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$49" class="0">
 <segment>
-<pinref part="CVCO2" gate="G$1" pin="2"/>
+<pinref part="CT10" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="119.38" x2="187.96" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="116.84" x2="208.28" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="IC8" gate="A" pin="CX@2"/>
