@@ -245,14 +245,24 @@
 <text x="53.34" y="13.97" size="1.778" layer="1" font="vector" ratio="15" rot="R270" align="center-left">vco2</text>
 <text x="53.34" y="13.97" size="1.778" layer="29" font="vector" ratio="15" rot="R270" align="center-left">vco2</text>
 <text x="43.18" y="13.97" size="1.778" layer="29" font="vector" ratio="15" rot="R270" align="center-left">vco1</text>
-<circle x="10.16" y="50.8" radius="5.9944" width="0.6096" layer="21"/>
-<circle x="34.29" y="50.8" radius="5.9944" width="0.6096" layer="21"/>
-<circle x="58.42" y="50.8" radius="5.9944" width="0.6096" layer="21"/>
-<circle x="82.55" y="50.8" radius="5.9944" width="0.6096" layer="21"/>
-<circle x="48.26" y="36.83" radius="5.9944" width="0.6096" layer="21"/>
-<circle x="67.31" y="36.83" radius="5.9944" width="0.6096" layer="21"/>
 <text x="22.86" y="13.97" size="1.778" layer="1" font="vector" ratio="15" rot="R270" align="center-left">drone3</text>
 <text x="22.86" y="13.97" size="1.778" layer="29" font="vector" ratio="15" rot="R270" align="center-left">drone3</text>
+<text x="17.78" y="52.07" size="1.778" layer="1" font="vector" ratio="15" align="center-left">hi</text>
+<text x="24.13" y="50.8" size="1.778" layer="1" font="vector" ratio="15" align="center-left">lo</text>
+<text x="41.91" y="52.07" size="1.778" layer="1" font="vector" ratio="15" align="center-left">hi</text>
+<text x="66.04" y="52.07" size="1.778" layer="1" font="vector" ratio="15" align="center-left">hi</text>
+<text x="90.17" y="52.07" size="1.778" layer="1" font="vector" ratio="15" align="center-left">hi</text>
+<text x="1.27" y="50.8" size="1.778" layer="1" font="vector" ratio="15" align="center-left">lo</text>
+<text x="48.26" y="50.8" size="1.778" layer="1" font="vector" ratio="15" align="center-left">lo</text>
+<text x="72.39" y="50.8" size="1.778" layer="1" font="vector" ratio="15" align="center-left">lo</text>
+<text x="17.78" y="52.07" size="1.778" layer="29" font="vector" ratio="15" align="center-left">hi</text>
+<text x="41.91" y="52.07" size="1.778" layer="29" font="vector" ratio="15" align="center-left">hi</text>
+<text x="66.04" y="52.07" size="1.778" layer="29" font="vector" ratio="15" align="center-left">hi</text>
+<text x="90.17" y="52.07" size="1.778" layer="29" font="vector" ratio="15" align="center-left">hi</text>
+<text x="1.27" y="50.8" size="1.778" layer="29" font="vector" ratio="15" align="center-left">lo</text>
+<text x="24.13" y="50.8" size="1.778" layer="29" font="vector" ratio="15" align="center-left">lo</text>
+<text x="48.26" y="50.8" size="1.778" layer="29" font="vector" ratio="15" align="center-left">lo</text>
+<text x="72.39" y="50.8" size="1.778" layer="29" font="vector" ratio="15" align="center-left">lo</text>
 </plain>
 <libraries>
 </libraries>

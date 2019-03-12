@@ -3836,8 +3836,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="U3" library="MusicThingModular" deviceset="TL074" device="_SMD" value="TL084"/>
 <part name="VR13" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="1MΩ"/>
 <part name="VR14" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="1MΩ"/>
-<part name="CVCO1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1µF"/>
-<part name="CVCO2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1µF"/>
+<part name="CT9" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1µF"/>
+<part name="CT10" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1µF"/>
 <part name="VR1" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="100KΩ"/>
 <part name="VR2" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="100KΩ"/>
 <part name="VR3" library="MusicThingModular" deviceset="9MM_SNAP-IN_POT_CHASSIS" device="" value="100KΩ"/>
@@ -6251,8 +6251,8 @@ by U2D to create the final MUX output
 <instance part="U3" gate="B" x="223.52" y="165.1"/>
 <instance part="VR13" gate="G$1" x="91.44" y="78.74"/>
 <instance part="VR14" gate="G$1" x="205.74" y="78.74"/>
-<instance part="CVCO1" gate="G$1" x="73.66" y="121.92"/>
-<instance part="CVCO2" gate="G$1" x="187.96" y="121.92"/>
+<instance part="CT9" gate="G$1" x="73.66" y="121.92"/>
+<instance part="CT10" gate="G$1" x="187.96" y="121.92"/>
 <instance part="R15" gate="G$1" x="91.44" y="101.6" rot="R90"/>
 <instance part="R16" gate="G$1" x="205.74" y="101.6" rot="R90"/>
 <instance part="GND61" gate="1" x="193.04" y="71.12"/>
@@ -6339,7 +6339,7 @@ by U2D to create the final MUX output
 </net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="CVCO1" gate="G$1" pin="1"/>
+<pinref part="CT9" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="127" x2="73.66" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="129.54" x2="86.36" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="129.54" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
@@ -6351,7 +6351,7 @@ by U2D to create the final MUX output
 <segment>
 <pinref part="IC7" gate="A" pin="CX@2"/>
 <wire x1="93.98" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="CVCO1" gate="G$1" pin="2"/>
+<pinref part="CT9" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="116.84" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6360,14 +6360,14 @@ by U2D to create the final MUX output
 <pinref part="IC8" gate="A" pin="CX@1"/>
 <wire x1="208.28" y1="124.46" x2="200.66" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="124.46" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="CVCO2" gate="G$1" pin="1"/>
+<pinref part="CT10" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="129.54" x2="187.96" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="129.54" x2="187.96" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$49" class="0">
 <segment>
-<pinref part="CVCO2" gate="G$1" pin="2"/>
+<pinref part="CT10" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="119.38" x2="187.96" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="116.84" x2="208.28" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="IC8" gate="A" pin="CX@2"/>

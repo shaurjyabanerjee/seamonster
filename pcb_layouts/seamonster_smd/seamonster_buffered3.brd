@@ -3,7 +3,7 @@
 <eagle version="9.0.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -3342,10 +3342,24 @@ design rules under a new name.</description>
 <wire x1="30.48" y1="32.96" x2="30.5" y2="32.94" width="0.2032" layer="1" curve="-90"/>
 <wire x1="30.5" y1="32.94" x2="30.5" y2="30" width="0.254" layer="1"/>
 <via x="30.5" y="30" extent="1-16" drill="0.35"/>
-<wire x1="30.5" y1="30" x2="30.5" y2="29" width="0.254" layer="16"/>
+<wire x1="30.5" y1="30" x2="30.5" y2="29.464" width="0.254" layer="16"/>
+<wire x1="30.5" y1="29.464" x2="30.5" y2="29" width="0.254" layer="16"/>
 <wire x1="30.5" y1="29" x2="33" y2="26.5" width="0.254" layer="16" curve="90"/>
 <wire x1="33" y1="26.5" x2="44.54" y2="26.5" width="0.254" layer="16"/>
 <wire x1="44.54" y1="26.5" x2="46.99" y2="24.05" width="0.254" layer="16" curve="-90"/>
+<contactref element="IC9" pad="1"/>
+<wire x1="17.4625" y1="78.3209" x2="16.3576" y2="77.216" width="0.2032" layer="16" curve="-90"/>
+<wire x1="7.62" y1="77.216" x2="2.54" y2="72.136" width="0.2032" layer="16" curve="90"/>
+<wire x1="2.54" y1="25.4" x2="5.588" y2="22.352" width="0.2032" layer="16" curve="90"/>
+<wire x1="11.176" y1="25.908" x2="12.7" y2="27.432" width="0.2032" layer="16" curve="-90"/>
+<wire x1="28.956" y1="27.432" x2="30.5" y2="28.976" width="0.2032" layer="16" curve="90"/>
+<wire x1="30.5" y1="28.976" x2="30.5" y2="29.464" width="0.2032" layer="16"/>
+<wire x1="16.3576" y1="77.216" x2="7.62" y2="77.216" width="0.2032" layer="16"/>
+<wire x1="2.54" y1="72.136" x2="2.54" y2="25.4" width="0.2032" layer="16"/>
+<wire x1="11.176" y1="23.876" x2="11.176" y2="25.908" width="0.2032" layer="16"/>
+<wire x1="12.7" y1="27.432" x2="28.956" y2="27.432" width="0.2032" layer="16"/>
+<wire x1="5.588" y1="22.352" x2="9.652" y2="22.352" width="0.2032" layer="16"/>
+<wire x1="9.652" y1="22.352" x2="11.176" y2="23.876" width="0.2032" layer="16" curve="90"/>
 </signal>
 <signal name="VCO2_OUT">
 <contactref element="IC8" pad="4"/>
@@ -3371,7 +3385,6 @@ design rules under a new name.</description>
 <contactref element="VCO2" pad="P$1_TIP"/>
 <wire x1="35.56" y1="32.96" x2="36.83" y2="32.96" width="0.254" layer="1"/>
 <contactref element="IC9" pad="8"/>
-<contactref element="IC9" pad="1"/>
 <wire x1="36.83" y1="32.96" x2="36.87" y2="33" width="0.2032" layer="1" curve="-90"/>
 <via x="38.5" y="33" extent="1-16" drill="0.35"/>
 <wire x1="54" y1="33" x2="57.15" y2="29.85" width="0.254" layer="16" curve="-90"/>
@@ -3392,13 +3405,6 @@ design rules under a new name.</description>
 <wire x1="27.5" y1="37.5" x2="25" y2="40" width="0.254" layer="16" curve="-90"/>
 <via x="25" y="54.8728" extent="1-16" drill="0.35"/>
 <wire x1="25" y1="40" x2="25" y2="54.8728" width="0.254" layer="16"/>
-<wire x1="17.4625" y1="78.3209" x2="16.6416" y2="77.5" width="0.2032" layer="16" curve="-90"/>
-<wire x1="16.6416" y1="77.5" x2="12" y2="77.5" width="0.2032" layer="16"/>
-<via x="12" y="77.5" extent="1-16" drill="0.35"/>
-<wire x1="12" y1="77.5" x2="11" y2="76.5" width="0.2032" layer="1" curve="90"/>
-<wire x1="11" y1="76.5" x2="11" y2="71.5" width="0.2032" layer="1"/>
-<wire x1="11" y1="71.5" x2="13" y2="69.5" width="0.2032" layer="1" curve="90"/>
-<wire x1="13" y1="69.5" x2="25" y2="69.5" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$44">
 <contactref element="CT9" pad="1"/>

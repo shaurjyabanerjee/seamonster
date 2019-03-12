@@ -3929,7 +3929,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="J1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
 <part name="J2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
 <part name="J3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES"/>
-<part name="U$2" library="alpha_8pos_rotary_switch" deviceset="ALPHA_ROTARY_SWITCH" device=""/>
+<part name="U$2" library="alpha_8pos_rotary_switch" deviceset="ALPHA_ROTARY_SWITCH" device="" value="CLOCK RATE SELECT"/>
 <part name="GND74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>

@@ -3947,13 +3947,13 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND75" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND76" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CTH1" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="CTH3" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
 <part name="CTH2" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="CTH4" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="CTH5" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="CTH6" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="CTH7" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="CTH8" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
 </parts>
 <sheets>
 <sheet>
@@ -5796,13 +5796,13 @@ by U2D to create the final MUX output
 <instance part="COMPLEX2" gate="G$1" x="350.52" y="116.84"/>
 <instance part="GND70" gate="1" x="365.76" y="91.44"/>
 <instance part="CTH1" gate="G$1" x="22.86" y="200.66"/>
-<instance part="C4" gate="G$1" x="22.86" y="147.32"/>
+<instance part="CTH3" gate="G$1" x="22.86" y="147.32"/>
 <instance part="CTH2" gate="G$1" x="58.42" y="200.66"/>
-<instance part="C3" gate="G$1" x="58.42" y="147.32"/>
-<instance part="C5" gate="G$1" x="22.86" y="93.98"/>
-<instance part="C6" gate="G$1" x="58.42" y="93.98"/>
-<instance part="C7" gate="G$1" x="25.4" y="38.1"/>
-<instance part="C8" gate="G$1" x="58.42" y="38.1"/>
+<instance part="CTH4" gate="G$1" x="58.42" y="147.32"/>
+<instance part="CTH5" gate="G$1" x="22.86" y="93.98"/>
+<instance part="CTH6" gate="G$1" x="58.42" y="93.98"/>
+<instance part="CTH7" gate="G$1" x="25.4" y="38.1"/>
+<instance part="CTH8" gate="G$1" x="58.42" y="38.1"/>
 </instances>
 <busses>
 </busses>
@@ -5883,7 +5883,7 @@ by U2D to create the final MUX output
 <pinref part="CT3" gate="G$1" pin="2"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 <wire x1="35.56" y1="142.24" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="-"/>
+<pinref part="CTH3" gate="G$1" pin="-"/>
 <wire x1="35.56" y1="139.7" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="142.24" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
@@ -5893,7 +5893,7 @@ by U2D to create the final MUX output
 <pinref part="CT4" gate="G$1" pin="2"/>
 <pinref part="GND34" gate="1" pin="GND"/>
 <wire x1="45.72" y1="142.24" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="-"/>
+<pinref part="CTH4" gate="G$1" pin="-"/>
 <wire x1="45.72" y1="139.7" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="142.24" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="139.7" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
@@ -5903,7 +5903,7 @@ by U2D to create the final MUX output
 <pinref part="CT5" gate="G$1" pin="2"/>
 <pinref part="GND36" gate="1" pin="GND"/>
 <wire x1="35.56" y1="88.9" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="-"/>
+<pinref part="CTH5" gate="G$1" pin="-"/>
 <wire x1="35.56" y1="86.36" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="88.9" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
@@ -5913,7 +5913,7 @@ by U2D to create the final MUX output
 <pinref part="CT6" gate="G$1" pin="2"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 <wire x1="45.72" y1="88.9" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="-"/>
+<pinref part="CTH6" gate="G$1" pin="-"/>
 <wire x1="45.72" y1="86.36" x2="45.72" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="88.9" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="86.36" x2="45.72" y2="86.36" width="0.1524" layer="91"/>
@@ -5923,7 +5923,7 @@ by U2D to create the final MUX output
 <pinref part="CT7" gate="G$1" pin="2"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 <wire x1="35.56" y1="33.02" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="-"/>
+<pinref part="CTH7" gate="G$1" pin="-"/>
 <wire x1="35.56" y1="30.48" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="33.02" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
@@ -5933,7 +5933,7 @@ by U2D to create the final MUX output
 <pinref part="CT8" gate="G$1" pin="2"/>
 <pinref part="GND38" gate="1" pin="GND"/>
 <wire x1="45.72" y1="33.02" x2="45.72" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="-"/>
+<pinref part="CTH8" gate="G$1" pin="-"/>
 <wire x1="45.72" y1="30.48" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="30.48" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
@@ -6040,7 +6040,7 @@ by U2D to create the final MUX output
 <wire x1="45.72" y1="152.4" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="152.4" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
 <junction x="45.72" y="152.4"/>
-<pinref part="C3" gate="G$1" pin="+"/>
+<pinref part="CTH4" gate="G$1" pin="+"/>
 <wire x1="58.42" y1="152.4" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6050,7 +6050,7 @@ by U2D to create the final MUX output
 <wire x1="53.34" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="162.56" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="CT3" gate="G$1" pin="1"/>
-<pinref part="C4" gate="G$1" pin="+"/>
+<pinref part="CTH3" gate="G$1" pin="+"/>
 <wire x1="35.56" y1="152.4" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="152.4" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="152.4" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
@@ -6091,7 +6091,7 @@ by U2D to create the final MUX output
 <wire x1="45.72" y1="99.06" x2="45.72" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
 <junction x="45.72" y="99.06"/>
-<pinref part="C6" gate="G$1" pin="+"/>
+<pinref part="CTH6" gate="G$1" pin="+"/>
 <wire x1="58.42" y1="99.06" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6104,7 +6104,7 @@ by U2D to create the final MUX output
 <wire x1="35.56" y1="99.06" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="99.06" x2="22.86" y2="99.06" width="0.1524" layer="91"/>
 <junction x="35.56" y="99.06"/>
-<pinref part="C5" gate="G$1" pin="+"/>
+<pinref part="CTH5" gate="G$1" pin="+"/>
 <wire x1="22.86" y1="99.06" x2="22.86" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6142,7 +6142,7 @@ by U2D to create the final MUX output
 <wire x1="45.72" y1="43.18" x2="45.72" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="43.18" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
 <junction x="45.72" y="43.18"/>
-<pinref part="C8" gate="G$1" pin="+"/>
+<pinref part="CTH8" gate="G$1" pin="+"/>
 <wire x1="58.42" y1="43.18" x2="58.42" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6155,7 +6155,7 @@ by U2D to create the final MUX output
 <wire x1="35.56" y1="43.18" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 <junction x="35.56" y="43.18"/>
-<pinref part="C7" gate="G$1" pin="+"/>
+<pinref part="CTH7" gate="G$1" pin="+"/>
 <wire x1="25.4" y1="43.18" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>

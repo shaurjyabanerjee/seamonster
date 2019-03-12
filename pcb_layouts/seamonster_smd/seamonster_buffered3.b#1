@@ -9,7 +9,7 @@
 </settings>
 <grid distance="20" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -31,9 +31,9 @@
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -1691,13 +1691,13 @@ design rules under a new name.</description>
 <element name="CB16" library="SparkFun-Capacitors" package="0805" value="0.1µF" x="112.268" y="32.512" rot="R270"/>
 <element name="CB17" library="SparkFun-Capacitors" package="0805" value="0.1µF" x="111.252" y="39.624" rot="R180"/>
 <element name="CTH1" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="15.24" y="43.688" rot="MR0"/>
-<element name="C4" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="15.748" y="30.988" rot="MR0"/>
+<element name="CTH3" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="15.748" y="30.988" rot="MR0"/>
 <element name="CTH2" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="6.223" y="43.688" rot="MR0"/>
-<element name="C3" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="6.604" y="30.988" rot="MR0"/>
-<element name="C5" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="70.104" y="49.784" rot="MR0"/>
-<element name="C6" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="45.72" y="47.752" rot="MR0"/>
-<element name="C7" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="85.344" y="43.18" rot="MR0"/>
-<element name="C8" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="79.248" y="43.18" rot="MR0"/>
+<element name="CTH4" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="6.604" y="30.988" rot="MR0"/>
+<element name="CTH5" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="70.104" y="49.784" rot="MR0"/>
+<element name="CTH6" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="45.72" y="47.752" rot="MR0"/>
+<element name="CTH7" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="85.344" y="43.18" rot="MR0"/>
+<element name="CTH8" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="79.248" y="43.18" rot="MR0"/>
 </elements>
 <signals>
 <signal name="V+">
@@ -2039,11 +2039,11 @@ design rules under a new name.</description>
 <via x="84.347" y="15.293" extent="1-16" drill="0.35"/>
 <via x="106.826" y="40.058" extent="1-16" drill="0.35"/>
 <via x="125.622" y="32.946" extent="1-16" drill="0.35"/>
-<via x="132.226" y="48.694" extent="1-16" drill="0.35"/>
+<via x="132.226" y="50.218" extent="1-16" drill="0.35"/>
 <via x="162.706" y="98.986" extent="1-16" drill="0.35"/>
 <via x="162.706" y="92.382" extent="1-16" drill="0.35"/>
 <via x="137.306" y="75.11" extent="1-16" drill="0.35"/>
-<via x="54.502" y="44.122" extent="1-16" drill="0.35"/>
+<via x="49.93" y="47.678" extent="1-16" drill="0.35"/>
 <via x="87.014" y="89.842" extent="1-16" drill="0.35"/>
 <via x="107.334" y="89.842" extent="1-16" drill="0.35"/>
 <via x="127.146" y="89.842" extent="1-16" drill="0.35"/>
@@ -2067,12 +2067,12 @@ design rules under a new name.</description>
 <contactref element="CB17" pad="2"/>
 <contactref element="CTH1" pad="2"/>
 <contactref element="CTH2" pad="2"/>
-<contactref element="C3" pad="2"/>
-<contactref element="C4" pad="2"/>
-<contactref element="C6" pad="2"/>
-<contactref element="C5" pad="2"/>
-<contactref element="C7" pad="2"/>
-<contactref element="C8" pad="2"/>
+<contactref element="CTH4" pad="2"/>
+<contactref element="CTH3" pad="2"/>
+<contactref element="CTH6" pad="2"/>
+<contactref element="CTH5" pad="2"/>
+<contactref element="CTH7" pad="2"/>
+<contactref element="CTH8" pad="2"/>
 </signal>
 <signal name="VCC">
 <contactref element="CB2" pad="1"/>
@@ -2876,7 +2876,7 @@ design rules under a new name.</description>
 <contactref element="CT4" pad="1"/>
 <wire x1="28.945" y1="56.515" x2="28.945" y2="51.446" width="0.254" layer="1"/>
 <wire x1="28.945" y1="51.446" x2="29.591" y2="50.8" width="0.254" layer="1" curve="90"/>
-<contactref element="C3" pad="1"/>
+<contactref element="CTH4" pad="1"/>
 <wire x1="23.876" y1="32.893" x2="23.114" y2="33.655" width="0.254" layer="1" curve="-90"/>
 <wire x1="23.876" y1="32.893" x2="24.384" y2="32.893" width="0.254" layer="1"/>
 <via x="24.384" y="32.893" extent="1-16" drill="0.35"/>
@@ -2898,7 +2898,7 @@ design rules under a new name.</description>
 <contactref element="CT3" pad="1"/>
 <wire x1="39.635" y1="56.515" x2="39.635" y2="51.446" width="0.254" layer="1"/>
 <wire x1="39.635" y1="51.446" x2="38.989" y2="50.8" width="0.254" layer="1"/>
-<contactref element="C4" pad="1"/>
+<contactref element="CTH3" pad="1"/>
 <wire x1="38.989" y1="50.8" x2="38.989" y2="49.149" width="0.254" layer="1"/>
 <wire x1="38.989" y1="49.149" x2="38.1" y2="48.26" width="0.254" layer="1" curve="-90"/>
 <wire x1="38.1" y1="48.26" x2="25.4" y2="48.26" width="0.254" layer="1"/>
@@ -2959,7 +2959,7 @@ design rules under a new name.</description>
 <contactref element="CT6" pad="1"/>
 <wire x1="53.075" y1="56.515" x2="53.075" y2="51.446" width="0.254" layer="1"/>
 <wire x1="53.075" y1="51.446" x2="53.721" y2="50.8" width="0.254" layer="1" curve="90"/>
-<contactref element="C6" pad="1"/>
+<contactref element="CTH6" pad="1"/>
 <wire x1="44.45" y1="47.752" x2="46.482" y2="49.784" width="0.254" layer="16" curve="-90"/>
 <wire x1="52.705" y1="49.784" x2="53.721" y2="50.8" width="0.254" layer="16" curve="90"/>
 <wire x1="46.482" y1="49.784" x2="52.705" y2="49.784" width="0.254" layer="16"/>
@@ -2969,7 +2969,7 @@ design rules under a new name.</description>
 <contactref element="CT5" pad="1"/>
 <wire x1="63.765" y1="56.515" x2="63.765" y2="51.446" width="0.254" layer="1"/>
 <wire x1="63.765" y1="51.446" x2="63.119" y2="50.8" width="0.254" layer="1" curve="-90"/>
-<contactref element="C5" pad="1"/>
+<contactref element="CTH5" pad="1"/>
 <wire x1="63.119" y1="50.8" x2="64.135" y2="49.784" width="0.254" layer="1" curve="90"/>
 <wire x1="64.135" y1="49.784" x2="68.834" y2="49.784" width="0.254" layer="1"/>
 </signal>
@@ -3010,7 +3010,7 @@ design rules under a new name.</description>
 <contactref element="CT8" pad="1"/>
 <wire x1="77.205" y1="56.515" x2="77.205" y2="51.446" width="0.2032" layer="1"/>
 <wire x1="77.205" y1="51.446" x2="77.851" y2="50.8" width="0.2032" layer="1" curve="90"/>
-<contactref element="C8" pad="1"/>
+<contactref element="CTH8" pad="1"/>
 <wire x1="77.851" y1="50.8" x2="77.978" y2="50.673" width="0.2032" layer="16" curve="-90"/>
 <wire x1="77.978" y1="50.673" x2="77.978" y2="43.18" width="0.254" layer="16"/>
 </signal>
@@ -3019,7 +3019,7 @@ design rules under a new name.</description>
 <contactref element="CT7" pad="1"/>
 <wire x1="87.895" y1="56.515" x2="87.895" y2="51.446" width="0.2032" layer="1"/>
 <wire x1="87.895" y1="51.446" x2="87.249" y2="50.8" width="0.2032" layer="1" curve="-90"/>
-<contactref element="C7" pad="1"/>
+<contactref element="CTH7" pad="1"/>
 <wire x1="87.249" y1="50.8" x2="87.376" y2="50.673" width="0.2032" layer="16" curve="-90"/>
 <wire x1="87.376" y1="50.673" x2="87.376" y2="47.244" width="0.254" layer="16"/>
 <wire x1="87.376" y1="47.244" x2="86.868" y2="46.736" width="0.254" layer="16" curve="-90"/>

@@ -3949,6 +3949,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="CTH1" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
 <part name="CTH2" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="CAP_POL" device="PTH2"/>
 </parts>
 <sheets>
 <sheet>
@@ -5757,14 +5758,14 @@ by U2D to create the final MUX output
 <instance part="CT1" gate="G$1" x="35.56" y="198.12"/>
 <instance part="GND32" gate="1" x="45.72" y="187.96"/>
 <instance part="GND33" gate="1" x="35.56" y="187.96"/>
-<instance part="CT3" gate="G$1" x="35.56" y="147.32"/>
-<instance part="CT4" gate="G$1" x="45.72" y="147.32"/>
+<instance part="CT3" gate="G$1" x="35.56" y="144.78"/>
+<instance part="CT4" gate="G$1" x="45.72" y="144.78"/>
 <instance part="CT5" gate="G$1" x="35.56" y="93.98"/>
 <instance part="CT6" gate="G$1" x="45.72" y="93.98"/>
 <instance part="CT7" gate="G$1" x="35.56" y="38.1"/>
 <instance part="CT8" gate="G$1" x="45.72" y="38.1"/>
-<instance part="GND34" gate="1" x="45.72" y="137.16"/>
-<instance part="GND35" gate="1" x="35.56" y="137.16"/>
+<instance part="GND34" gate="1" x="45.72" y="134.62"/>
+<instance part="GND35" gate="1" x="35.56" y="134.62"/>
 <instance part="GND36" gate="1" x="35.56" y="83.82"/>
 <instance part="GND37" gate="1" x="45.72" y="83.82"/>
 <instance part="GND38" gate="1" x="45.72" y="27.94"/>
@@ -5791,8 +5792,9 @@ by U2D to create the final MUX output
 <instance part="COMPLEX2" gate="G$1" x="350.52" y="116.84"/>
 <instance part="GND70" gate="1" x="365.76" y="91.44"/>
 <instance part="CTH1" gate="G$1" x="22.86" y="200.66"/>
-<instance part="C4" gate="G$1" x="20.32" y="149.86"/>
+<instance part="C4" gate="G$1" x="22.86" y="147.32"/>
 <instance part="CTH2" gate="G$1" x="58.42" y="200.66"/>
+<instance part="C3" gate="G$1" x="58.42" y="147.32"/>
 </instances>
 <busses>
 </busses>
@@ -5872,12 +5874,22 @@ by U2D to create the final MUX output
 <segment>
 <pinref part="CT3" gate="G$1" pin="2"/>
 <pinref part="GND35" gate="1" pin="GND"/>
-<wire x1="35.56" y1="144.78" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="142.24" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="-"/>
+<wire x1="35.56" y1="139.7" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="142.24" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
+<junction x="35.56" y="139.7"/>
 </segment>
 <segment>
 <pinref part="CT4" gate="G$1" pin="2"/>
 <pinref part="GND34" gate="1" pin="GND"/>
-<wire x1="45.72" y1="144.78" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="142.24" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="-"/>
+<wire x1="45.72" y1="139.7" x2="45.72" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="142.24" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="139.7" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
+<junction x="45.72" y="139.7"/>
 </segment>
 <segment>
 <pinref part="CT5" gate="G$1" pin="2"/>
@@ -5997,6 +6009,11 @@ by U2D to create the final MUX output
 <wire x1="53.34" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="157.48" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="CT4" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="152.4" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="152.4" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
+<junction x="45.72" y="152.4"/>
+<pinref part="C3" gate="G$1" pin="+"/>
+<wire x1="58.42" y1="152.4" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
@@ -6005,6 +6022,11 @@ by U2D to create the final MUX output
 <wire x1="53.34" y1="162.56" x2="35.56" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="162.56" x2="35.56" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="CT3" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="+"/>
+<wire x1="35.56" y1="152.4" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="152.4" x2="22.86" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="152.4" x2="22.86" y2="149.86" width="0.1524" layer="91"/>
+<junction x="35.56" y="152.4"/>
 </segment>
 </net>
 <net name="INV_D_OUT" class="0">

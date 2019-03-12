@@ -1570,6 +1570,10 @@ design rules under a new name.</description>
 <element name="C4" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="-1.016" y="-21.336"/>
 <element name="CTH2" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="-1.016" y="-38.1"/>
 <element name="C3" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="-1.016" y="-54.864"/>
+<element name="C5" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="-1.016" y="-71.628"/>
+<element name="C6" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="-1.016" y="-88.392"/>
+<element name="C7" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="-1.016" y="-105.156"/>
+<element name="C8" library="SparkFun-Capacitors" package="CPOL-RADIAL-10UF-25V" value="" x="-1.016" y="-121.92"/>
 </elements>
 <signals>
 <signal name="V+">
@@ -1941,6 +1945,10 @@ design rules under a new name.</description>
 <contactref element="CTH2" pad="2"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C4" pad="2"/>
+<contactref element="C6" pad="2"/>
+<contactref element="C5" pad="2"/>
+<contactref element="C7" pad="2"/>
+<contactref element="C8" pad="2"/>
 <wire x1="134.258" y1="108.13" x2="139.01" y2="106.68" width="0" layer="19" extent="1-1"/>
 <wire x1="126.96" y1="113.68" x2="134.258" y2="108.13" width="0" layer="19" extent="1-1"/>
 <wire x1="119.96" y1="106.68" x2="126.96" y2="113.68" width="0" layer="19" extent="1-1"/>
@@ -2115,6 +2123,10 @@ design rules under a new name.</description>
 <wire x1="-2.286" y1="-21.336" x2="-2.286" y2="-4.572" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.286" y1="-38.1" x2="-2.286" y2="-21.336" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.286" y1="-54.864" x2="-2.286" y2="-38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.286" y1="-71.628" x2="-2.286" y2="-54.864" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.286" y1="-88.392" x2="-2.286" y2="-71.628" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.286" y1="-105.156" x2="-2.286" y2="-88.392" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.286" y1="-121.92" x2="-2.286" y2="-105.156" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="CB2" pad="1"/>
@@ -2969,12 +2981,16 @@ design rules under a new name.</description>
 <contactref element="CT6" pad="1"/>
 <wire x1="53.075" y1="56.515" x2="53.075" y2="51.446" width="0.254" layer="1"/>
 <wire x1="53.075" y1="51.446" x2="53.721" y2="50.8" width="0.254" layer="1" curve="90"/>
+<contactref element="C6" pad="1"/>
+<wire x1="0.254" y1="-88.392" x2="53.721" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$60">
 <contactref element="SW3" pad="3"/>
 <contactref element="CT5" pad="1"/>
 <wire x1="63.765" y1="56.515" x2="63.765" y2="51.446" width="0.254" layer="1"/>
 <wire x1="63.765" y1="51.446" x2="63.119" y2="50.8" width="0.254" layer="1" curve="-90"/>
+<contactref element="C5" pad="1"/>
+<wire x1="0.254" y1="-71.628" x2="63.119" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INV_E_OUT">
 <contactref element="IC2" pad="10"/>
@@ -3013,12 +3029,16 @@ design rules under a new name.</description>
 <contactref element="CT8" pad="1"/>
 <wire x1="77.205" y1="56.515" x2="77.205" y2="51.446" width="0.2032" layer="1"/>
 <wire x1="77.205" y1="51.446" x2="77.851" y2="50.8" width="0.2032" layer="1" curve="90"/>
+<contactref element="C8" pad="1"/>
+<wire x1="0.254" y1="-121.92" x2="77.851" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$64">
 <contactref element="SW4" pad="3"/>
 <contactref element="CT7" pad="1"/>
 <wire x1="87.895" y1="56.515" x2="87.895" y2="51.446" width="0.2032" layer="1"/>
 <wire x1="87.895" y1="51.446" x2="87.249" y2="50.8" width="0.2032" layer="1" curve="-90"/>
+<contactref element="C7" pad="1"/>
+<wire x1="0.254" y1="-105.156" x2="87.249" y2="50.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CCO1_BUFFERED">
 <contactref element="U1" pad="2"/>
